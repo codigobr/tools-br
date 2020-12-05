@@ -1,0 +1,2923 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Sobre nós</title>
+        <link rel="canonical" href="https://tools.dev.br/institucional/politica-de-privacidade/">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+        <meta name="robots" content="all">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.6/dist/semantic.min.css">
+        <!-- Quando carregado de forma local gera um erro para mostrar os ícones na página pois carrega as fontes usando o caminho relativo do arquivo original. -->
+        <!-- <link rel="stylesheet" type="text/css" href="/assets/css/vendor/fomantic-ui@2.8.6/semantic.min.css"> -->
+
+        <!-- <link rel="stylesheet" type="text/css" href="/assets/css/vendor/lite-yt-embed.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app.css"> -->
+
+        <!-- Google Adsense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQ475W0J5H"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-XQ475W0J5H');
+        </script> -->
+
+
+        <style type="text/css">
+        	.editor__settings {
+        		position: absolute;
+        		top: 0;
+        		bottom: 0;
+        		left: 0;
+        		right: 0;
+        		background-color: hsl(0deg 0% 100%);
+        		z-index: 6;
+        		border: 1px solid hsl(0deg 0% 80%);
+        		border-radius: 4px;
+        		padding: 20px;
+        	}
+
+        	.editor__sidebar-chain-menu {
+        		display: none!important;
+			}
+
+        	.editor__sidebar-chain-menu.active-chain {
+        		display: block!important;
+        	}
+
+        	.editor-buffer-cover__lang, .page-cover__label {
+        	    font-size: 20px;
+        	    font-weight: bold;
+        	    color: #433456;
+        	}
+
+        	.editor-buffer-cover {
+        	    position: absolute;
+        	    top: 0;
+        	    bottom: 0;
+        	    left: 0;
+        	    right: 0;
+        	    background-color: white;
+        	    z-index: 6;
+        	    border: 1px solid #ccc;
+        	    border-radius: 4px;
+        	    display: flex;
+        	    align-items: center;
+        	    justify-content: center;
+        	    flex-direction: column;
+        	}
+
+        	.tool-bar__item-cover {
+        	  position: absolute;
+        	  top: 0;
+        	  bottom: 0;
+        	  left: 0;
+        	  right: 0;
+        	  background-color: #ffffffdb;
+        	  cursor: default;
+        	}
+
+	        div[data-header] {
+	        	cursor: pointer;
+	        }
+
+	        .drag-over {
+	        	border: 2px dashed hsl(206deg 73% 47%);
+	        	background: hsl(208deg 100% 97%);
+	        	opacity: .5;
+	        }
+
+        #wait {
+          background-color: #ffffffa8;
+          border-radius: 4px;
+          position: absolute;
+          display: none;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 6;
+        }
+
+        .wait-content {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: relative;
+        }
+
+
+        /*////////////////////////////////////////////////////////////////////////////////*/
+        /* SPINENR */
+        /*////////////////////////////////////////////////////////////////////////////////*/
+        .lds-ellipsis {
+          display: inline-block;
+          position: relative;
+          width: 80px;
+          height: 80px;
+        }
+        .lds-ellipsis div {
+          position: absolute;
+          top: 33px;
+          width: 13px;
+          height: 13px;
+          border-radius: 50%;
+          background: #433456;
+          animation-timing-function: cubic-bezier(0, 1, 1, 0);
+        }
+        .lds-ellipsis div:nth-child(1) {
+          left: 8px;
+          animation: lds-ellipsis1 0.6s infinite;
+        }
+        .lds-ellipsis div:nth-child(2) {
+          left: 8px;
+          animation: lds-ellipsis2 0.6s infinite;
+        }
+        .lds-ellipsis div:nth-child(3) {
+          left: 32px;
+          animation: lds-ellipsis2 0.6s infinite;
+        }
+        .lds-ellipsis div:nth-child(4) {
+          left: 56px;
+          animation: lds-ellipsis3 0.6s infinite;
+        }
+        @keyframes lds-ellipsis1 {
+          0% {
+            transform: scale(0);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+        @keyframes lds-ellipsis3 {
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(0);
+          }
+        }
+        @keyframes lds-ellipsis2 {
+          0% {
+            transform: translate(0, 0);
+          }
+          100% {
+            transform: translate(24px, 0);
+          }
+        }
+        /*////////////////////////////////////////////////////////////////////////////////*/
+        /* ./SPINENR */
+        /*////////////////////////////////////////////////////////////////////////////////*/
+
+        	#editor {
+        	  margin: 0;
+        	  position: absolute;
+        	  top: 0;
+        	  bottom: 0;
+        	  left: 0;
+        	  right: 0;
+        	  /*border: 2px solid #ccc;*/
+        	  border-top: none;
+        	}
+
+            .spotlight {
+                background-color: #f0f0f0;
+                color: #880000;
+                border-radius: 4px;
+                display: inline-block;
+                font-size: 0.875em;
+                padding: 1px 6px;
+                vertical-align: baseline;
+                line-height: 1.3em;
+                font-family: 'Roboto Mono', monospace;
+            }
+
+            code {
+                color: hsl(0deg 0% 27%);
+                padding: 1.5em;
+                line-height: 2em;
+                border-radius: 0 0 3px 3px;
+                font-size: 14.5px;
+                vertical-align: baseline;
+                font-family: 'Roboto Mono', monospace;
+                display: block;
+                overflow-x: auto;
+                background: hsl(0deg 0% 94%);
+            }
+
+            .citation {
+                border: 1px solid hsl(206deg 73% 47%)!important;
+            }
+
+            .citation-tab-content {
+                background: #0000000d;
+                padding: 15px;
+                border-radius: 4px;
+            }
+
+            .ui.secondary.menu .active.item {
+                font-weight: bold;
+            }
+
+            .overflow-x-auto {
+                overflow-x: auto;
+            }
+
+            .code-toolbar {
+                display: flex;
+                flex-direction: row;
+                white-space: normal;
+                background: hsl(0deg 0% 98%);
+                color: hsl(0deg 0% 33%);
+                font-size: 0.875em;
+                opacity: 1;
+                transition: opacity linear 0.5s;
+                border: 1px solid hsl(0deg 0% 94%);
+                border-radius: 4px 4px 0 0;
+                padding: 5px 10px;
+                right: 0;
+                top: 0;
+                left: 0;
+            }
+
+            .code-toolbar > a {
+                cursor: pointer;
+                color: hsl(0deg 0% 33%);
+                width: 30px;
+                text-align: center;
+            }
+
+            .code-toolbar > a:hover {
+                color: hsl(0deg 0% 60%);
+            }
+
+            .code-language {
+                margin-right: 10px;
+                font-weight: 600;
+                flex: 1;
+            }
+
+            figure {
+                margin: 0!important;
+            }
+
+            figcaption {
+                text-align: center;
+                font-size: 0.8em;
+                color: #444;
+                margin: 15px 0 0 0;
+            }
+
+            pre, code {
+                /*position: relative;*/
+                /*font-size: 1em;*/
+                font-family: 'Roboto Mono', monospace!important;
+                font-size: 14.5px;
+            }
+
+            .hljs {
+                padding: 1.5em;
+                line-height: 2em;
+            }
+
+            .ad-anounce {
+                line-height: 2!important;
+                font-size: .7rem!important;
+            }
+
+            .img-noblur {
+                filter: blur(0px)!important;
+            }
+
+            /**
+            * Create an invisible pseudo-element and make it the height of the
+            * sticky navbar so the jump takes you to a location above the link
+            */
+            :target::before {
+              content: "";
+              display: block;
+              margin-top: -45px;
+              height: 45px;
+              width: 1px;
+            }
+
+          /*
+          Avoid empty images to appear as broken
+          */
+          img:not([src]):not([srcset]) {
+            visibility: hidden;
+          }
+
+          /*
+          Fixes the Firefox anomaly while images are loading
+          */
+          @-moz-document url-prefix() {
+            img:-moz-loading {
+              visibility: hidden;
+            }
+          }
+
+
+          /* Highlight Content - Destaca o conteúdo quando a tela é rolada */
+          .highlight {
+              /*display:block;*/
+              /*width: max-content;*/
+              background-size: 200% auto;
+              /*background-image: linear-gradient(to right,#fff 50%,#ff0 50%);*/
+              background-image: linear-gradient(to right,#fff 50%,#ffe8a3 50%);
+              background-position: 0% 0;
+              animation-duration: 0.8s;
+              animation-delay: 0s;
+              animation-iteration-count: 1;
+              animation-fill-mode: forwards;
+          }
+          .highlight.highlighted {
+             animation-name: highlight;
+          }
+
+          @keyframes highlight {
+              from {background-position: 0% 0;}
+              to {background-position: -100% 0;}
+          }
+
+          .ui.tabular.menu .item {
+            cursor: pointer;
+          }
+
+          .ui.tabular.menu .item.active > .youtube.icon {
+            color: #db2828;
+          }
+
+            .cover-link {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+          .cover-img {
+            position: absolute!important;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+          }
+
+        .alt-title {
+            font-size: 18px;
+            margin-top: 10px!important;
+            color: #444;
+        }
+
+        @media (max-width: 480px) {
+            p, .alt-title {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hide-mobile {
+                display: none!important;
+            }
+        }
+
+        @media (min-width: 601px) {
+            .hide-desktop {
+                display: none!important;
+            }
+        }
+
+          .img-lazy-container {
+            position: relative;
+          }
+
+          /* Arruma a centralização das informações ao lado da foto do autor */
+          .ui.items>.item .meta {
+            margin: .5em 0 0!important;
+          }
+
+          .poster-container {
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgb(34,36,38,.15);
+            border-radius: 4px;
+            transition: height 300ms;
+          }
+
+          .show-more {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+          }
+
+          .show-less {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: none;
+          }
+
+          .bullet-list {
+            padding: 0.4em 0!important;
+            margin-left: 3.25rem!important;
+          }
+
+          .bullet-list > .item {
+            line-height: 1.5em!important;
+          }
+
+          .next-article-arrow {
+            position: absolute;
+            left: calc(50% - 6.635px);
+            bottom: -20px;
+            color: #878787;
+          }
+
+		.position-relative {
+		position: relative;
+		}
+
+      /* Social media button */
+      .smb-outline {
+        background-color: hsl(0deg 0% 0% / 0%);
+          border: 1px solid hsl(0deg 0% 80%);
+          color: hsl(0deg 0% 40%);
+      }
+
+            .display-none {
+            display: none!important;
+            }
+            .text-center {
+            text-align: center!important;
+            }
+            .text-right {
+            text-align: right!important;
+            }
+            .share-buttons {
+            line-height: 50px;
+            }
+            /*Coloca três pontos se o texto for muito longo */
+            .overflow-hidden {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            }
+            .flex-center {
+            display: flex!important;
+            justify-content: center!important;
+            align-items: center!important;
+            }
+
+            .w-100 {
+            width: 100%!important
+            }
+            .lh-35 {
+            line-height: 35px!important;
+            }
+            .float-right {
+            float: right;
+            }
+            p {
+            line-height: 1.6em;
+            margin: 1.5em 0!important
+            }
+            .content > p:first-child {
+                margin-top: 0!important;
+            }
+
+            .content > p:last-child {
+                margin-bottom: 0!important;
+            }
+
+            .top-bt {
+            height: 47px;
+            border-radius: 0!important
+            }
+            body {
+                /*font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI emoji;*/
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                /*font-size: 18px;*/
+            }
+            .ui.button, .ui.header {
+                font-family: 'Roboto', sans-serif;
+            }
+            .exercise {
+            font-size: 16px!important;
+            }
+            .share-dropdown {
+            position: absolute!important;
+            right: 0;
+            top: 0;
+            }
+            h1 {
+            font-size: 2.2rem;
+            }
+            h2 {
+            margin-top: 60px!important;
+            }
+            h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+            color: #424242;
+            }
+            .bg-light-purple {
+            background-color: #f0f1ff!important;
+            }
+            .br-0 {
+            border-radius: 0!important
+            }
+            .b-0 {
+            border: 0!important
+            }
+            .m-0 {
+            margin: 0!important;
+            }
+
+            .ml-20 {
+            margin-left: 20px!important;
+            }
+
+            .mr-10 {
+            margin-right: 10px!important;
+            }
+
+            .mr-20 {
+            margin-right: 20px!important;
+            }
+
+            .mv-20 {
+            margin-top: 20px!important;
+            margin-bottom: 20px!important;
+            }
+            .mv-30 {
+            margin-top: 30px!important;
+            margin-bottom: 30px!important;
+            }
+            .mv-40 {
+            margin-top: 40px!important;
+            margin-bottom: 40px!important;
+            }
+            .mv-60 {
+            margin-top: 60px!important;
+            margin-bottom: 60px!important;
+            }
+            .mv-80 {
+            margin-top: 80px!important;
+            margin-bottom: 80px!important;
+            }
+            .mb-0 {
+            margin-bottom: 0!important;
+            }
+            .mt-0 {
+            margin-top: 0;
+            }
+            .mb-10 {
+            margin-bottom: 10px!important;
+            }
+            .mb-20 {
+              margin-bottom: 20px!important;
+            }
+            .mb-40 {
+              margin-bottom: 40px!important;
+            }
+            .mt-10 {
+            margin-top: 10px!important;
+            }
+            .mt-20 {
+            margin-top: 20px!important;
+            }
+            .mt-40 {
+            margin-top: 40px!important;
+            }
+            .mt-80 {
+            margin-top: 80px!important;
+            }
+            .mb-60 {
+            margin-bottom: 60px!important;
+            }
+            .mb-80 {
+            margin-bottom: 80px!important;
+            }
+            .display-flex {
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
+
+                        }
+            .br-0 {
+            border-radius: 0!important;
+            }
+            .p-0 {
+            padding: 0!important;
+            }
+            .p-5 {
+            padding: 5px!important;
+            }
+
+            .opacity-30 {
+            opacity: .3;
+            }
+            .inline-input {
+            font-family: monospace;
+            font-size: 16px;
+            border: 0;
+            border-bottom: 1px solid;
+            background-color: #f1f1f1;
+            color: #772e2e;
+            padding:0;
+            }
+            .right-answer {
+            display: none;
+            }
+            .wrong {
+            border: 1px dashed red;
+            border-radius: 2px;
+            display: inline-block;
+            position: relative;
+            line-height: 0;
+            }
+            .wrong:before {
+            content: 'errado';
+            position: absolute;
+            top: 18px;
+            left: -1px;
+            font-size: 11px;
+            color: hsl(0deg 0% 100%);
+            background: hsl(0deg 100% 50%);
+            text-align: center;
+            border: 1px solid;
+            line-height: 16px;
+            letter-spacing: 1px;
+            /* width: 102%; */
+            font-weight: 600;
+            padding: 0 4px;
+            border: 0;
+            }
+            #favorite-tools__menu {
+            	box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)!important;
+            }
+            .box-shadow {
+            	box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12)!important;
+            }
+            #header {
+            width: 100%;
+            position: fixed;
+            /*transition: all 0.2s ease-in-out;*/
+            transition: all 0.2s ease-in-out;
+            /*z-index:9000000;  Tem que ser alto senão o "guardar" do pinterest (que aparecem quando o mouse está em cima das imagens) fica na frente */
+            z-index:9000;
+            background-color: white;
+            /*border-bottom: 1px solid #f3f3f3;*/
+            }
+            .ui.unstackable.items>.item>.image, .ui.unstackable.items>.item>.image>img {
+                width: 60px!important;
+            }
+            @media only screen and (max-width: 767.98px) {
+            .ui.unstackable.items>.item>.image, .ui.unstackable.items>.item>.image>img {
+                width: 60px!important;
+            }
+            }
+
+            .faded {
+            color: #777;
+            }
+
+            .quiz-container {
+              border: 1px solid #ccc;
+              padding: 16px;
+              border-radius: 4px;
+            }
+            .quiz-question-container {
+              display: none;
+            }
+            .quiz-active-question {
+              display: block;
+            }
+            .explain-answer {
+              display: none;
+            }
+            .quiz-next {
+              text-align: center;
+              display: none;
+            }
+            .quiz-result {
+              display: none;
+            }
+            .quiz-answers {
+              list-style: none;
+              padding: 0;
+            }
+            .quiz-answers a {
+              display: block;
+              padding: 0.5em 1em;
+              margin-bottom: 0.5em;
+              background: #fff;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            }
+            .quiz-answers a.correct {
+            background: #090;
+            }
+            .quiz-answers a.incorrect {
+            background: #c00;
+            }
+            .quiz-answers a.correct,
+            .quiz-answers a.incorrect {
+            color: #fff;
+            }
+
+            .black-dimmer {
+            background-color: black;
+            opacity: 0.7;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            }
+            .white-dimmer {
+            background-color: white;
+            opacity: 0.8;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            }
+            .sidebars {
+            display: none;
+            /*display: block;*/
+            position: fixed;
+            z-index: 10000000;
+            }
+            .sidebars > .sidebar {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.64);
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 270px;
+            background: #fafafa;
+            }
+            .ui.vertical.menu {
+            width: 270px!important;
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 0;
+            }
+            .sidebar-header {
+            width: 270px;
+            position: fixed;
+            transition: all 0.2s linear;
+            background-color: white;
+            border-bottom: 1px solid #f3f3f3;
+            left: 0;
+            top: 0;
+            }
+            .sidebar-menu {
+            box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2), 0px 16px 24px 2px rgba(0,0,0,0.14), 0px 6px 30px 5px rgba(0,0,0,0.12);
+            }
+            .selected {
+            /*background: #888888!important;*/
+            background: #f3f4f5!important;
+            color: black!important;
+            }
+            .ui.vertical.menu .item:before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: rgba(34,36,38,0);
+            }
+            .ui.vertical.menu>.item:first-child {
+            border-radius: 0;
+            }
+            .ui.vertical.menu>.item:last-child {
+            border-radius: 0;
+            }
+            .search-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 10000000;
+            }
+            .mt-30 {
+            margin-top: 30px!important;
+            }
+            #close-search {
+	            position: absolute;
+                top: 10px;
+                right: 10px;
+                background-color: hsl(0deg 0% 91%);
+                color: hsl(0deg 0% 0% / 62%);
+                cursor: pointer;
+                padding: 3px 4px;
+                border-radius: 50%;
+            }
+            .menu-header {
+            width: 270px;
+            background-color: #f3f4f5;
+            z-index: 1;
+            padding: 13px 16px;
+            border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+            }
+            .ui.search>.results .result .title, .ui.category.search>.results .category>.name, .ui.menu {
+            font-family: 'Roboto', sans-serif;
+            }
+            .ui.message {
+                font-size: 1em!important;
+            }
+
+            .ui.tiny.header {
+                font-size: .92em!important;
+            }
+
+            .ui.items>.item .meta {
+                font-size: 0.8em!important;
+            }
+
+            /*Sub menu item do menu lateral esquerdo*/
+            .ui.vertical.menu .menu .item {
+                font-size: 14px;
+                color: #222!important;
+                padding: .92857143em 1.8em!important;
+            }
+
+            #back-to-top {
+              position: fixed;
+              bottom: -60px;
+              right: 10px;
+              background-color: rgb(255,255,255,.5);
+              z-index: 1;
+              border-radius: 50%;
+              padding: 11.313px 10px;
+              cursor: pointer;
+              transition: all 0.2s ease-in-out;
+            }
+            /*Para esconder a barra superior quando rolarmos a janela para baixo*/
+            .nav-up {
+                transform: translate(0, -53px);
+                /*transform: translate(0, -84.42px);*/
+            }
+
+            /* Esconde o botão de voltar ao topo no fundo da página */
+            .back-to-top-down {
+                transform: translate(0, -70px);
+            }
+
+            /* Fundo cinza quando o mouse estiver em cima dos pequenos elementos dentro dos menus */
+            .ui.vertical.menu .item .menu .link.item:hover, .ui.vertical.menu .item .menu a.item:hover {
+            cursor: pointer;
+            background: rgba(0,0,0,.03);
+            color: rgba(0,0,0,.95);
+            }
+            .ui.labeled.icon.button>.icon, .ui.labeled.icon.buttons>.button>.icon {
+            background-color: rgb(0, 0, 0, 0);
+            }
+            .ad-unit-container {
+                background-color: hsl(0deg 0% 100%);
+                background-image: linear-gradient(45deg, hsl(0deg 0% 96%) 25%, hsl(0deg 0% 0% / 0%) 25%, hsl(0deg 0% 0% / 0%) 75%, hsl(0deg 0% 96%) 75%), linear-gradient(45deg, hsl(0deg 0% 96%) 25%, hsl(0deg 0% 0% / 0%) 25%, hsl(0deg 0% 0% / 0%) 75%, hsl(0deg 0% 96%) 75%);
+                background-size: 10px 10px;
+                background-position: 0 0, 5px 5px;
+                position: relative;
+                padding: 1em 0.5em;
+                border-radius: .28571429rem;
+                text-align: center;
+            }
+            .ad-unit:before {
+            content: attr(data-text);
+            display: block;
+            color: #444;
+            font-size: 10px;
+            font-weight: 700;
+            text-align: center;
+            }
+
+            .ad-reveal-container {
+                height: 0;
+                overflow: hidden;
+                /*transition: height 0.9s ease-in-out;*/
+                transition: height 0.9s;
+            }
+
+            /* o efeito de box-shadow está desaparecendo dos ads dos livros pois o container superior está com o overflow como hidden */
+            .ad-reveal {
+                padding: 0 3px; /* necessário para o reveal */
+            }
+
+            /* Botões sociais */
+            .collection-item > .twitter {
+                color: #1da1f2;
+            }
+
+            .collection-item > .facebook {
+                color: #4267b2;
+            }
+
+            .collection-item > .linkedin {
+                color: #0073b0;
+            }
+
+            .collection-item > .whatsapp {
+              color: #30AF29!important;
+            }
+
+            .collection-item > .telegram {
+              color: #0E9BD8!important;
+            }
+
+            .collection-item > .pinterest {
+                color: #bd081c!important;
+            }
+
+            .collection-item > .vk {
+                color: #45668e!important;
+            }
+
+            .collection-item > .envelope {
+                color: #444!important;
+            }
+
+            .sidebar__tool {
+            	word-wrap: break-word;
+            }
+
+            .page-cover__container {
+            	position: fixed;
+            	top: 0;
+            	bottom: 0;
+            	left: 0;
+            	right: 0;
+            	background-color: hsl(0deg 0% 100% / 80%);
+            	z-index: 9999999;
+            	display: none
+            }
+
+            .page-cover__label-container {
+            	display: flex;
+            	align-items: center;
+            	justify-content: center;
+            	flex-direction: column;
+            	width: 100%;
+            	height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="#top"></span>
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Propaganda na parte de baixo da página -->
+        <!-- Desabilitada até o google aprovar o adsense na página -->
+        <!-- <div id="page-fixed-bottom-ad" class="pg-ad" style="position: fixed;bottom: 0px;left: 50%;right: 0px;text-align: center;margin: 0px 0px 0px -362px;z-index: 9999999;transition: bottom 0.75s ease 0s;background-color: rgb(255, 255, 255);width: 728px;height: 90px;border: 1px solid rgba(0, 0, 0, 0.8);" data-google-query-id="CJH-uLW4jO0CFZcyuQYduCsEwQ">
+        	<ins class="adsbygoogle"
+        	     style="display:block"
+        	     data-ad-client="ca-pub-3427355473051563"
+        	     data-ad-slot="4586829342"
+        	     data-ad-format="auto"
+        	     data-full-width-responsive="true"></ins>
+        	<script>
+        	     (adsbygoogle = window.adsbygoogle || []).push({});
+        	</script>
+        	<a id="close-fixed-ad" style="background-color: rgba(0, 0, 0, 0.6); color: rgb(255, 255, 255); display: block; width: 20px; text-align: center; font-size: 14px; line-height: 20px; border-radius: 50% 50% 0px 0px; font-family: sans-serif; position: absolute; top: -20px; right: 0px; cursor: pointer;">x</a>
+        </div> -->
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Bloqueio de tela para o chaining -->
+        <div class="page-cover__container" id="page__cover">
+        	<div class="page-cover__label-container" style="">
+	        	<span class="page-cover__label">Encadear...</span>
+	        	<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        	</div>
+        </div>
+        <!-- ./Bloqueio de tela para o chaining -->
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Botão no canto inferior direito, retorna para o topo da página -->
+        <span id="back-to-top" class="box-shadow">
+        	<i class="ui large text up arrow icon m-0"></i>
+        </span>
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Pesquisa no estilo (alt+shift+p) do sublime text -->
+        <div class="search-container">
+            <!-- Background -->
+            <div class="white-dimmer" id="search-dimmer"></div>
+            <span class="html-popup" id="close-search" data-html="<div class='header'>Fechar pesquisa</div><div class='content'><i class='keyboard outline icon'></i>&nbsp;<b>ESC</b></div>" data-position="bottom right">
+            	<i class="close icon m-0"></i>
+            </span>
+            <div class="ui centered grid mt-30">
+                <div class="eight wide computer ten wide tablet fourteen wide table mobile column">
+                    <div class="ui scrolling local fluid search">
+                        <div class="ui left icon input w-100">
+                            <input class="prompt" type="text" placeholder="Digite para pesquisar..." id="search-input">
+                            <i class="search icon"></i>
+                        </div>
+                        <div class="results"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- Menu lateral (alr+shift+m) -->
+        <div class="sidebars" tabindex="1">
+            <div class="white-dimmer" id="sidebar-dimmer"></div>
+            <!-- Menu principal com as ferramentas -->
+            <div class="sidebar-menu has-filter" id="perl-reference" style="z-index: 2; position: fixed;">
+                <div class="item menu-header">
+                    <span class="ui text">
+                    	<strong style="color: rgba(0,0,0,.85);">Tools</strong>
+                    </span>
+
+                    <!-- Botão "x" para fechar a barra lateral -->
+                    <a class="html-popup float-right close-sidebar"
+                       style="cursor: pointer;color: rgba(0,0,0,.4);"
+                       data-html="<div class='header'>Fechar Menu</div><div class='content'><i class='keyboard outline icon'></i>&nbsp;<b>ESC</b></div>"
+                       data-position="bottom right">
+                    	<span class="ui text"><i class="close icon m-0"></i></span>
+                    </a>
+                    <!-- Botão "x" para fechar a barra lateral -->
+
+                    <!-- Caixa para filtrar os valores do menu lateral -->
+                    <div class="ui form" style="margin-top: 10px">
+                        <div class="field">
+                            <div class="ui calendar">
+                                <div class="ui input left icon">
+                                    <i class="filter icon"></i>
+                                    <input class="menu-filter" type="text" placeholder="Digite para filtrar...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Caixa para filtrar os valores do menu lateral -->
+                </div>
+
+                <!-- Lista de ferramentas do site -->
+                <div class="ui left vertical accordion menu" style="margin-top: 0;border-radius: 0;height: calc(100vh - 97px)">
+                	<div class="item menu-item menu-with-header">
+                	    <div class="header">FERRAMENTAS DE CONVERSÃO</div>
+                	    <div class="menu">
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-bcd-em-hexadecimal/">xml em json</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-json-em-xml/">json em xml</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-json-em-tsv/">json em tsv</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-tsv-em-json/">tsv em json</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-jade-em-html/">jade em html</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-html-em-jade/">html em jade</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-xml-em-yaml/">xml em yaml</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-yaml-em-xml/">yaml em xml</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-xml-em-csv/">xml em csv</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-csv-em-xml/">csv em xml</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-bcd-em-hexadecimal/">bcd em hexadecimal</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-hexadecimal-em-bcd/">hexadecimal em bcd</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-codigo-de-gray-em-hexadecimal/">Código de Gray em hexadecimal</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-hexadecimal-em-codigo-de-gray/">hexadecimal em Código de Gray</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-csv-em-tsv/">csv em tsv</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-tsv-em-csv/">tsv em csv</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-texto-em-csv/">texto em csv</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-csv-em-texto/">csv em texto</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-celsius-em-fahrenheit/">Celsius em Fahrenheit</a>
+                	        <a class="item menu-item navigable-item sidebar__tool" href="/converter-fahrenheit-em-celsius/">Fahrenheit em Celsius</a>
+                	    </div>
+                	</div>
+
+                	<!-- Quando for adicionar outra categoria basta seguir o modelo abaixo -->
+                    <!-- <div class="item menu-item menu-with-header">
+                        <div class="header">CONVERSION TOOLS</div>
+                        <div class="menu">
+                            <a class="item menu-item navigable-item sidebar__tool" href="/xml-to-json/">Convert XML to JSON</a>
+                            <a class="item menu-item navigable-item sidebar__tool" href="/json-to-xml/">Convert JSON to XML</a>
+                            <a class="item menu-item navigable-item sidebar__tool" href="/xml-to-csv/">Convert XML to CSV</a>
+                            <a class="item menu-item navigable-item sidebar__tool" href="/csv-to-xml/">Convert CSV to XML</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="display-flex">
+            <!-- Para empurrar o footer para a parte de baixo da página -->
+            <div style="flex:1;-webkit-box-flex: 1;-ms-flex: 1;">
+                <!-- A barra superior vai ficar grudada aqui -->
+                <div class="ui br-0 p-0" id="header">
+                    <div class="ui secondary menu mb-0 mt-0">
+                        <a class="item top-bt html-popup" id="open-sidebar" data-action="toggle" data-side="left" data-html="<div class='header'>Menu</div><div class='content'><b>ALT</b>+<b>SHIFT</b>+<b>M</b> Abrir menu.<br><b><i class='arrow up icon'></i></b>, <b><i class='arrow down icon'></i></b> Navegar no menu.<br><b>ENTER</b> Ativar o elemento destacado no menu.</div>" data-position="bottom left">
+                        <span class="ui large text"><i class="bars icon"></i></span>
+                        </a>
+                        <!-- <div class="item" style="padding-left: 0; flex: 1;justify-content: center;"> -->
+                        <div class="item" style="padding-left: 0; flex: 1;">
+                            <a href="/" class="display-flex" style="flex-direction: row; justify-content: center;align-content: center;">
+                                <span class="ui large text">
+                                	<i class="terminal grey icon"></i>
+                                	<strong style="color: #424242;font-family: 'Roboto Mono'">TOOLS</strong>
+                                </span>
+                            </a>
+                        </div>
+
+                    	<div class="ui right dropdown item" id="open-favorites" style="height: 47px;border-radius: 0;">
+                    		<span class="ui large text"><i class="star yellow icon m-0"></i></span>
+                    		<i class="dropdown icon"></i>
+                    		<div class="menu" id="favorite-tools__menu">
+                    			<div class="header" id="favorite-tools__header">
+                    				<i class="star outline icon"></i>
+                    				Ferramentas Favoritas
+                    			</div>
+                			   <div class="scrolling menu" id="favorite-tools__menu-items">
+                			   		<div class="item" id="no-favorites" style="white-space: normal; min-width: 230px;padding: 10px;font-weight: 400;display: none">
+                			   			<div class="no-favorites__label">
+                			   				<div style="
+                			   				    text-align: center;
+                			   				    margin: 15px 0;
+                			   				"><i class="sad cry outline huge grey icon m-0" style="
+                			   				    font-size: 4em!important;
+                			   				    margin: 0!important;
+                			   				"></i></div>
+                			   				<span class="ui grey text no-favorites__label-text" style="text-align: center; line-height: 20px">Você não tem nenhuma <b>ferramenta favorita</b>, adiciona alguma <b>clicando</b> no ícone <i class="star outline icon m-0" style="margin: 0!important"></i> perto do <b>editor</b>.</span>
+                			   			</div>
+                			   		</div>
+
+                			   </div>
+                    		</div>
+                    	</div>
+
+                        <a class="item top-bt html-popup" id="open-search" data-html="<div class='header'>Open Search</div><div class='content'><i class='keyboard outline icon'></i>&nbsp;<b>ALT</b>+<b>SHIFT</b>+<b>P</b></div>" data-position="bottom right" data-offset="-10">
+                        	<span class="ui large text"><i class="search icon"></i></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+                <!-- Anúncios da página no estilo google, uma msg na parte superior do container -->
+                <!-- <div class="ui fluid container message__container" style="margin-top: 47px;margin-bottom: -47px">
+                	<div class="ui success message text-center">
+                	  <i class="close icon close-message"></i>
+                	  <i class="fire yellow icon"></i> Get <b>3</b> months access to <b>600+</b> books and courses for <b>$3/m</b> <a class="ui positive button">Access Now</a>
+                	</div>
+                </div> -->
+                <!-- ./Anúncios da página -->
+                <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+                    <!-- <div class="ui grid mv-20">
+                        <div class="ui large leaderboard ad test centered">
+                          <ins class="adsbygoogle"
+                          style="display:block"
+                          data-ad-client="ca-pub-3427355473051563"
+                          data-ad-slot="4586829342"
+                          data-ad-format="auto"
+                          data-full-width-responsive="true"></ins>
+                          <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                          </script>
+                        </div>
+                        </div> -->
+                    <!-- <div class="ui stackable centered grid"> -->
+
+
+            	<!-- Container do conteúdo principal da página -->
+            	<div class="ui container mv-60">
+            		<div class="ui centered grid">
+						<div class="ten wide computer fourteen wide tablet sixteen wide mobile column">
+							<div class="ui breadcrumb mb-20 mt-80" id="page-breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+							    <a href="/" class="section">Ínicio</a>
+							    <i class="right angle icon divider"></i>
+							    <div class="active section">Sobre nós</div>
+							</div>
+
+                            <h1>Sobre nós</h1>
+
+                            <p>Para facilitar a sua a vida como desenvolvedor, aqui você encontra uma coleção das melhores ferramentas para auxiliar programadores como, minificadores, conversores, beautifiers (embelezadores/indentadores de código), calculadoras, editores online e muito mais.</p>
+                        </div>
+            		</div>
+            	</div>
+            </div>
+		</div>
+
+
+
+            <!-- Fim do Flex:1 -->
+            <!-- footer -->
+            <!-- <div class="ui br-0 mb-0" style="margin-top: 60px;">
+                <div class="ui secondary menu">
+                  <div class="center menu">
+                    <a href="https://twitter.com/CodigoNetwork" target="_blank" class="item">&copy;&nbsp;&nbsp;perl.dev.br</a>
+                  </div>
+                </div>
+                </div> -->
+            <div class="ui inverted vertical footer segment" style="padding: 70px 0 120px;margin-top:70px;">
+                <div class="ui container">
+                    <div class="ui inverted divided equal height stackable grid">
+                        <div class="seven wide column">
+                            <h4 class="ui inverted header">As ferramentas de desenvolvedor que você mais precisa</h4>
+                            <p>Para facilitar a sua a vida como desenvolvedor, aqui você encontra uma coleção das melhores ferramentas para auxiliar programadores como, minificadores, conversores, beautifiers (embelezadores/indentadores de código), calculadoras, editores online e muito mais.</p>
+                        </div>
+                        <div class="three wide column">
+                            <h4 class="ui inverted header">Institucional</h4>
+                            <div class="ui inverted link list">
+                                <a href="/institucional/sobre-nos/" class="item" style="padding-bottom: 10px;padding-top:10px">Sobre nós</a>
+                                <a href="/institucional/politica-de-privacidade/" class="item" style="padding-bottom: 10px;padding-top:10px">Política de privacidade</a>
+                                <a href="/institucional/termos-de-uso/" class="item" style="padding-bottom: 10px;padding-top:10px">Termos de uso</a>
+                                <a href="/institucional/aviso-legal/" class="item" style="padding-bottom: 10px;padding-top:10px">Aviso legal</a>
+                            </div>
+                        </div>
+                        <div class="three wide column">
+                            <h4 class="ui inverted header">Idiomas</h4>
+                            <div class="ui inverted link list">
+                                <!-- <a href="https://en.tools.dev.br" class="item"><i class="us flag"></i> English</a> -->
+                                <a href="https://en.tools.dev.br" class="item" style="padding-bottom: 10px;padding-top:10px"><i class="us flag"></i> English</a>
+                                <!-- <a href="/about-us/" class="item"><i class="es flag"></i> Español</a>
+                                <a href="/about-us/" class="item"><i class="ru flag"></i> русский</a>
+                                <a href="/about-us/" class="item"><i class="cn flag"></i> 中文</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui section divider"></div>
+                    <!-- <div class="ui">
+                        <img class="lazy-img unloaded" data-src="by-sa.png" height="40">
+                    </div> -->
+                    <div class="ui horizontal small divided inverted link list">
+                        <small class="item" style="font-size:85%;line-height:1.4;">&copy; tools.dev.br. Todos os nomes de produtos, logotipos e marcas são propriedade de seus respectivos proprietários. Todos os nomes de empresas, produtos e serviços usados neste site são apenas para fins de identificação. O uso desses nomes, logotipos e marcas não implica endosso. Para mais informações visite a página <a href="/institucional/aviso-legal/">aviso legal</a>. Imagens e ícones fornecidos por <a href="https://www.flaticon.com/" target="_blank" rel="noreferrer">flaticon&nbsp;<sup><small><i class="external alternate icon"></i></small></sup></a></small>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+        </div>
+        <!--    <script type="text/javascript">
+            var infolinks_pid = 3286994;
+            var infolinks_wsid = 0;
+            </script>
+            <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script> -->
+        <!-- You MUST include jQuery before Fomantic -->
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+        <!-- IndexedDB Library -->
+        <script src="https://unpkg.com/localbase/dist/localbase.min.js"></script>
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.6/dist/semantic.min.js"></script> -->
+        <script src="/assets/js/vendor/fomantic-ui@2.8.6/semantic.min.js"></script>
+
+        <script type="text/javascript">
+        	var defaultPopupHtml = '<div class="header">Results</div><div class="content">After minification the results will appear here.</div>'
+
+            var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0; // Opera 8.0+
+            var isFirefox = typeof InstallTrigger !== 'undefined'; // Firefox 1.0+
+            var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0; // At least Safari 3+: "[object HTMLElementConstructor]"
+            var isIE = /*@cc_on!@*/false || !!document.documentMode; // Internet Explorer 6-11
+            var isIE8 = !-[1,]; // Internet Explorer 8 or below
+            var isEdge = !isIE && !!window.StyleMedia; // Edge 20+
+            var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.csi); // Chrome 1+
+            var isBlink = (isChrome || isOpera) && !!window.CSS; // Blink engine detection
+
+            // Armaze a referência a todos os elementos visiveis de um determinado menu lateral.
+            var visibleMenuElements = "";
+            // Armazena qual elemento do menu está selecionado.
+            var elementSelected;
+            var h; // height
+            var posterContainer;
+
+            $(".back-sidebar-menu").click(function() {
+              elementSelected = "";
+              visibleMenuElements = "";
+
+              sideBarId = $(this).attr('data-menu');
+              // Fecha o sub-menu
+              $('#' + sideBarId).css('display', 'none');
+              // Mostra o menu principal
+              $('#main-menu').css('display', 'block');
+              // Atualiza a coleção de elementos visiveis para o item atual.
+              visibleMenuElements = $('#main-menu').find('.menu-item.navigable-item:visible');
+              // $('.menu-item').removeClass('selected');
+            });
+
+            $('.sub-menu').click(function() {
+              sideBarId = $(this).attr('data-menu');
+              // Mostra o menu relacionado com o item que foi clicado.
+              $('#' + sideBarId).css('display', 'block');
+              // Atualiza a coleção de elementos visiveis para o item atual.
+              visibleMenuElements = $('#' + sideBarId).find('.menu-item.navigable-item:visible');
+              // Foca na caixa de filtrar elementos
+              $('#' + sideBarId + ' > .item > .ui.form > .field > .ui.calendar > .ui.input.left.icon > .menu-filter').focus().select();
+              // Esconde o menu principal (estou assumindo que só existe dois níveis de menu [princiapl --> sub-menu])
+              $('#main-menu').css('display', 'none');
+            });
+
+            var position = $(window).scrollTop();
+            var currentTopBarPos = $(window).scrollTop();
+
+            $(window).scroll(function() {
+                highlight();
+                revealAd();
+
+              var scroll = $(window).scrollTop();
+
+              if (scroll > 0) {
+                $('#header').addClass("box-shadow");
+              } else {
+                $('#header').removeClass("box-shadow");
+              }
+
+                // Rolando para baixa, esconde a barra superior
+                if(scroll > position) {
+                  $('#header').addClass('box-shadow');
+                    // Se a posição rolada pelo usuário for igual o topo anterior da barra mais 160 px
+                    // Isso evita que a barra superior suma assim que o usuário rolar para baixo.
+                    if (scroll > currentTopBarPos + 160) {
+                      // $('#back-to-top').hide();
+                      $('#back-to-top').removeClass('back-to-top-down');
+                      $('#header').addClass('nav-up');
+                      $('#open-favorites').dropdown('hide');
+                    }
+                } else { // Rolando para cima, mostra a barra superior
+                  $('#header').removeClass('nav-up');
+
+                  if (scroll < 100) {
+                    // $('#back-to-top').hide();
+                    $('#back-to-top').removeClass('back-to-top-down');
+                  } else {
+                    // $('#back-to-top').removeClass('back-to-top-down');
+                    $('#back-to-top').addClass('back-to-top-down');
+                    // $('#back-to-top').show();
+                  }
+
+                  currentTopBarPos = scroll;
+                }
+                position = scroll;
+            });
+
+            // $('.ui.left.vertical.accordion.menu').scroll(function() {
+            //  var scroll = $(this).scrollTop();
+            //  if (scroll > 0) {
+            //    $(this).closest('.sidebar-menu').find('.menu-header').addClass('box-shadow');
+            //  }
+            //  else {
+            //    $(this).closest('.sidebar-menu').find('.menu-header').removeClass('box-shadow');
+            //  }
+            // });
+
+            $('#open-sidebar').click(function() {
+              // Fecha o container da pesquisa se estiver aberto, senão um sobrepoe o outro
+              $('#close-search')[0].click();
+              // Sidebar on left (default)
+                $("body").css("overflow", "hidden"); // Evita o scroll do body quando a barra lateral estiver aberta.
+                $(".sidebars").css('display', 'block'); // Mostra o container da barra lateral.
+                sidebar = $(".sidebar-menu.has-filter:visible"); // Barra lateral com input filter, normalmente sub-menu.
+                if (sidebar) {
+                  // Um sub-menu está aberto, foca na caixa de pesquisa.
+                  sidebar.find('.menu-filter').focus().select();
+                }
+            });
+
+            $('.chain__tool-bar').click(function(e) {
+            	e.preventDefault();
+            	editorContent = editor.getSession().getValue();
+
+            	if (!editorContent.trim()) {
+            		message('Erro', 'O Editor está Vazio!', 'error');
+            	  	return false;
+            	}
+
+				$(this).closest('.editor__container').find('.editor__sidebar').show();
+            });
+
+            $('.editor__chain-with').click(function(e) {
+            	e.preventDefault();
+            	$("body").css("overflow", "hidden");
+            	$('.editor__sidebar').hide();
+            	$('#page__cover').show();
+
+            	var redirectPage = $(this).attr('data-href');
+            	var editorFrom = editor.getSession().getAnnotations().$editorId;
+            	var editorTo = $(this).attr('data-editor');
+
+            	setDBContent(editor.getSession().getValue(), editorFrom).then((id) => {
+            		var urlToRedirect = redirectPage + '?' + editorTo + '=' + id;
+            		window.location.href = urlToRedirect;
+            	});
+
+            	return false;
+            });
+
+            $('.editor__sidebar-dimmer').click(function() {
+				$('.editor__sidebar').hide();
+            });
+
+			var editorId;
+            $('.editor__close-sidebar').click(function() {
+            	$(this).closest('.editor__sidebar').hide();
+            	editorId = $(this).attr('data-editor');
+            	window[editorId].focus();
+            });
+
+
+            $('#sidebar-dimmer').click(function() {
+              closeSidebar();
+            });
+
+            $('#search-dimmer').click(function() {
+              closeSearch();
+            });
+
+            $('.close-sidebar').click(function() {
+              closeSidebar();
+            });
+
+            // Código de teclas como "'-+.*/
+            // keys = [192, 189, 187, 226, 188, 190, 191, 193, 219, 221, 220, 222, 194, 110, 111, 109, 106, 107];
+            $(window).keydown(function(e) {
+              // Reagir a combinações de teclas pode se tornar um inferno devido a compatibilidades e afins, esteja ciente disso
+              // Combinações de teclas usando CTRL é um péssima ideia pois alguns navegadores não permitem que o JavaScript cancele a ação padrão da tecla, a maioria dos atalhos dos navegadores começam com ctrl.
+
+              // ************************************************************************************
+              // Chama o search e coloca o foco dentro da caixa de pesquisa quando qualquer coisa for digitada na página.
+              // visibleSidebar = $('.sidebars:visible');
+              // if (!visibleSidebar.length) {
+              //  // Filtrar somente letras, números e símbolos para colocar na caixa de pesquisa.
+              //  if ( (e.keyCode >= 65 && e.keyCode <= 90) || (e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 96 && e.keyCode <= 105) || keys.includes(e.keyCode) ) {
+              //    $('#open-search')[0].click();
+              //    searchInput = $('#search-input');
+              //    if (!searchInput.is(':focus')) {
+              //      $('#search-input').focus().select();
+              //    }
+              //  }
+
+              //  return true;
+              // }
+              // ************************************************************************************
+
+              inputFilter = $('.sidebar-menu.has-filter:visible').first().find('.menu-filter');
+              if (inputFilter) { // Tem uma caixa de filtro da barra lateral na tela (visivel)?
+                // O foco NÃO está dentro da caixinha?
+                if (!inputFilter.is(':focus')) {
+                  // Foca na caixa e seleciona o conteúdo para ser substituido.
+                  inputFilter.focus().select();
+                }
+              }
+
+              // alt+shift+p --> abre a caixa de pesquisa.
+              if (e.altKey && e.shiftKey && e.keyCode === 80) {
+                $('#open-search')[0].click();
+                return false
+              }
+
+              // alt+shif+m --> Abre o menu lateral
+              if (e.altKey && e.shiftKey && e.keyCode === 77) {
+                $('#open-sidebar')[0].click();
+                return false;
+              }
+
+              // Esc --> fecha a barra lateral ou o container de pesquisa.
+              if (e.keyCode === 27) {
+                if ($('.search-container:visible').length) {
+                  console.log('Search aberto');
+                  $('#close-search')[0].click();
+                  return false;
+                } else if ($('.sidebars:visible').length) {
+                  console.log('Sidebar aberto');
+                  $('.close-sidebar')[0].click();
+                  return false;
+                }
+              }
+
+              // CTRL e seta para trás, volta para o menu principal.
+              if (e.ctrlKey && e.keyCode === 37) {
+                // Fecha todo o menu já que não tem um menu com pesquisar aberto.
+                visibleSidebar = $('.sidebar-menu.has-filter:visible').first();
+                if (visibleSidebar.length) {
+                  visibleSidebar.find('.back-sidebar-menu')[0].click();
+                  return false; // Evita que o opera volte para a página anterior.
+                } else if ($('.sidebars:visible').length) {
+                  closeSidebar();
+                  return false; // Evita que o opera volte para a página anterior.
+                }
+              }
+
+
+              // 33 = pageup, 34 pagedown, 35 end, 36 home, 38 seta para cima, 40 seta para baixo.
+              // Opera de forma diferente somente na barra lateral.
+              if ([33, 34, 35, 36, 38, 40].indexOf(e.keyCode) !== -1) {
+                // Tem uma barra lateral aberta?
+                visibleSidebar = $('.sidebar-menu:visible').first();
+                if (!visibleSidebar.length) {
+                  // Não tem barra lateral aberta então as teclas se comportarçao da maneira padrão.
+                  return true;
+                }
+
+                e.preventDefault();
+
+                // A lista de elementos visiveis foi resetada?
+                if (visibleMenuElements === "") {
+                  // Pega os elementos da barra de menu visiveis.
+                  visibleMenuElements = visibleSidebar.find('.menu-item.navigable-item:visible')
+                }
+
+                elementSelected = visibleSidebar.find('.menu-item.navigable-item.selected').first();
+
+                // Tecla "end" pressionada.
+                if (e.keyCode === 35) {
+                  elementSelected.removeClass('selected');
+                  // Seleciona o último elemento do menu.
+                  visibleMenuElements.last().addClass('selected').focus();
+                } else if (e.keyCode === 36) { // Tecla "home" pressionada.
+                  elementSelected.removeClass('selected');
+                  // Seleciona o primeiro elemento do menu.
+                  visibleMenuElements.first().addClass('selected').focus();
+                }
+
+                // Seta para baixo
+                if (e.keyCode === 40) {
+                  var isSelected = false;
+                  var breakOnNext = false;
+                  var isLast = false;
+                  var length = visibleMenuElements.length;
+                  visibleMenuElements.each(function(index) {
+                    elementSelected = $(this);
+
+                    if (breakOnNext) {
+                      return false; // Quebra o loop.
+                    }
+                    // O elemento atual tem a classe selected?
+                    if ($(this).hasClass('selected')) {
+                      elementSelected.removeClass('selected');
+                      isSelected = true;
+                      breakOnNext = true;
+
+                      if (index === (length - 1)) {
+                        isLast = true;
+                      }
+                    }
+                  });
+
+                  if (!isSelected || isLast) {
+                    elementSelected = visibleMenuElements.first();
+                  }
+
+                  elementSelected.addClass('selected').focus();
+                } else if (e.keyCode === 38) { // Seta para cima.
+                  var isSelected  = false;
+                  var breakOnNext = false;
+                  var isFirst     = false;
+                  var length      = visibleMenuElements.length;
+                  visibleMenuElements.each(function(index) {
+                    // O elemento atual tem a classe selected?
+                    if ($(this).hasClass('selected')) {
+                      $(this).removeClass('selected');
+                      isSelected = true;
+
+                      if (index === 0) {
+                        isFirst = true;
+                      }
+
+                      return false
+                    }
+
+                    elementSelected = $(this);
+                  });
+
+                  if (!isSelected || isFirst) {
+                    elementSelected = visibleMenuElements.last();
+                  }
+
+                  elementSelected.addClass('selected').focus();
+                }
+
+                // Evita o comportamento padrão das teclas esquerda, direita, home, end, page up e page down.
+                return false;
+              }
+
+                   // Enter ativa o item que estiver posicionado sobre
+                   if (e.keyCode === 13) {
+                  // Qualquer barra lateral, com caixa de filtro ou não.
+                  visibleSidebar = $('.sidebar-menu:visible').first();
+                  if (!visibleSidebar.length) {
+                    return true; // Não tem barra lateral aberta? Manda enter para a página.
+                  }
+
+                  // location.href = $(this).find('.menu-item.selected').attr('href');
+                  // [0] pega o elemento do próprio DOM e não um obj JQuery.
+                  visibleSidebar.find('.menu-item.navigable-item.selected')[0].click();
+                  return false;
+                }
+               });
+
+            // Quando um elemento do menu é clicado, coloca a classe "selected" nele.
+            $('.menu-item.navigable-item').click(function(e) {
+                $(this).closest('.sidebar-menu').find('.menu-item.navigable-item').removeClass('selected');
+                $(this).addClass('selected');
+            });
+
+            // Quando o valor muda dentro da caixinha de filtro
+            $('.menu-filter').on("input propertychange", function() {
+              // Remove a classe selected somento dos elementos do menu atual onde a pesquisa foi feita.
+              $(this).closest('.sidebar-menu').find('.menu-item').removeClass("selected");
+
+              // Filtra os elementos da lista.
+              filterValue = $(this).val()
+              .normalize("NFD")
+                           .replace(/[\u0300-\u036f]/g, "") // Remove acentuação ("acao" é o mesmo que "ação")
+                           .toLowerCase();
+
+              // mainMenu = $(this).closest('.ui.menu');
+              // $(this).closest('.ui.menu').find('.menu-item:contains')
+
+              // Vou usar a classe "menu-item" para pegar todo o conteúdo de sub-menus
+              $(this).closest('.sidebar-menu').find('.menu-item').each(function() {
+                t = $(this).text()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase();
+
+                // Achou um elemento com esse texto.
+                if (t.search(filterValue) > -1) {
+                  $(this).show();
+                } else {
+                  $(this).hide();
+                }
+              });
+
+              // Remove os sub-menus que estiverem vazios
+              $(this).closest('.sidebar-menu').find('.menu-with-header').each(function() {
+                l = $(this).find('.menu-item.navigable-item:visible').length;
+                if (l) {
+                  $(this).show();
+                } else {
+                  // console.log($(this));
+                  $(this).hide();
+                }
+              });
+
+              // Seleciona o primeiro elemento da lista
+              elementSelected = $(this).closest('.sidebar-menu').find('.menu-item.navigable-item:visible').first();
+              elementSelected.addClass('selected');
+              // Atualiza a coleção de elementos visiveis para o item atual.
+              visibleMenuElements = $(this).closest('.sidebar-menu').find('.menu-item.navigable-item:visible');
+            });
+
+            $('#open-search').click(function() {
+              // Fecha o container da pesquisa se estiver aberto, senão um sobrepoe o outro
+              closeSidebar();
+              openSearch();
+            });
+
+            $('#close-search').click(function() {
+              closeSearch();
+            });
+
+            function closeSidebar() {
+              $(".sidebars").css('display', 'none');
+              $("body").css("overflow", "visible");
+            }
+
+            function openSearch() {
+              $("body").css("overflow", "hidden");
+              $(".search-container").css('display', 'block');
+              $('#search-input').focus().select();
+            }
+
+            function closeSearch() {
+              $(".search-container").css('display', 'none');
+              $("body").css("overflow", "visible");
+            }
+
+            $('.ui.accordion')
+            .accordion()
+            ;
+
+            var content = [
+              { category: "Conversor", title: "Converter xml em json", url: "/converter-xml-em-json/" },
+              { category: "Conversor", title: "Converter json em xml", url: "/converter-json-em-xml/" },
+              { category: "Conversor", title: "Converter json em tsv", url: "/converter-json-em-tsv/" },
+              { category: "Conversor", title: "Converter tsv em json", url: "/converter-tsv-em-json/" },
+              { category: "Conversor", title: "Converter jade em html", url: "/converter-jade-em-html/" },
+              { category: "Conversor", title: "Converter html em jade", url: "/converter-html-em-jade/" },
+              { category: "Conversor", title: "Converter xml em yaml", url: "/converter-xml-em-yaml/" },
+              { category: "Conversor", title: "Converter yaml em xml", url: "/converter-yaml-em-xml/" },
+              { category: "Conversor", title: "Converter xml em csv", url: "/converter-xml-em-csv/" },
+              { category: "Conversor", title: "Converter csv em xml", url: "/converter-csv-em-xml/" },
+              { category: "Conversor", title: "Converter bcd em hexadecimal", url: "/converter-bcd-em-hexadecimal/" },
+              { category: "Conversor", title: "Converter hexadecimal em bcd", url: "/converter-hexadecimal-em-bcd/" },
+              { category: "Conversor", title: "Converter Código de Gray em hexadecimal", url: "/converter-codigo-de-gray-em-hexadecimal/" },
+              { category: "Conversor", title: "Converter CSV em Texto", url: "/converter-hexadecimal-em-codigo-de-gray/" },
+              { category: "Conversor", title: "Converter csv em tsv", url: "/converter-csv-em-tsv/" },
+              { category: "Conversor", title: "Converter tsv em csv", url: "/converter-tsv-em-csv/" },
+              { category: "Conversor", title: "Converter texto em csv", url: "/converter-texto-em-csv/" },
+              { category: "Conversor", title: "Converter csv em texto", url: "/converter-csv-em-texto/" },
+              { category: "Conversor", title: "Converter Celsius em Fahrenheit", url: "/converter-celsius-em-fahrenheit/" },
+              { category: "Conversor", title: "Converter Fahrenheit em Celsius", url: "/converter-fahrenheit-em-celsius/" }
+            ];
+
+            $('.ui.search')
+            .search({
+              	type: 'category',
+              	source: content,
+              	ignoreDiacritics: true, // Ação = Acao
+                fullTextSearch: true, // fuzzy search
+                selectFirstResult: true,
+                error: {
+                	noResultsHeader: "Sinto muito mas...",
+                	noResults:"Sua consulta não retornou nenhum resultado"
+                }
+            })
+            ;
+
+            $("#back-to-top").click(function() {
+              $("html, body").animate({ scrollTop: 0 }, "slow", function() {
+                $('#back-to-top').removeClass('back-to-top-down');
+                // $("#back-to-top").hide();
+              });
+
+              return false;
+            });
+
+            function showHideMobileShareButtons() {
+              $('.mobile-share').addClass('display-none');
+              if ($(window).width() < 768) {
+                $('.mobile-share').removeClass('display-none');
+              }
+            }
+
+            function adjustBookAd() {
+              // $('.book-ad').removeClass('horizontal');
+              // if ($(window).width() > 500) {
+              //   $('.book-ad').addClass('horizontal');
+              // }
+            }
+
+            $( window ).resize(function() {
+				adjustBookAd();
+				// showHideMobileShareButtons();
+            });
+
+            function getPageName() {
+	            var fullURL = window.location.pathname;
+	            // return fullURL.substring(fullURL.lastIndexOf('/') + 1).trim('/');
+	            return fullURL.match(/([^\/]*)\/*$/)[1];
+	        }
+
+	        var session;
+	        $('div[data-header]').click(function(e) {
+	        	$('div[data-header]').removeClass('active');
+	        	$(this).addClass('active');
+
+	        	session = $(this).attr('data-session');
+	        	if (session !== 'settings_editor') {
+	        		$('#editor-settings').hide();
+					editor.setSession(window[session]);
+					editor.focus();
+
+					// Quando alternar a seção do editor verificar se possui "desfazer"
+	            	if (!editor.getSession().getUndoManager().hasUndo()) {
+						$('#editor__undo-cover').fadeIn("fast");
+	            	} else {
+	            		$('#editor__undo-cover').fadeOut("fast");
+	            	}
+	        	} else {
+	        		$('#editor-settings').show();
+	        	}
+	        });
+
+            $(document).ready(function() {
+            	// A página está nos favoritos?
+            	db.collection('favoriteTools')
+            	  .doc({ id: getPageName().trim('/') })
+            	  .get()
+            	  .then(document => {
+            	  	if (typeof document !== 'undefined') { // A página está nos favoritos.
+	            	  	$('#editor__add-to-favorites-label')
+	            	  		.html('<i class="star yellow icon"></i> Favoritado')
+	            	  		.attr('data-isFavorited', 'true');
+            	  	} else { // A página não está nos favoritos.
+            	  		$('#editor__add-to-favorites-label')
+            	  			.html('<i class="star outline icon"></i> Adicionar aos favoritos')
+            	  			.attr('data-isFavorited', 'false');
+            	  	}
+            	  });
+
+            	// Insere os favoritos no menu.
+            	db.collection('favoriteTools')
+            	  .get()
+            	  .then(favoriteTools => {
+            	  	// Não há favoritos.
+            	  	if (typeof favoriteTools === 'undefined') {
+            	  		$('#no-favorites').show();
+            	  		$('#favorite-tools__header').hide();
+            	  	} else { // Há favoritos.
+            	  		if (!Array.isArray(favoriteTools)) { // Não é um vetor.
+            	  			favoriteTools = [favoriteTools];
+            	  		}
+
+	        	  		var favoriteMenu = $('#favorite-tools__menu-items');
+	        	  		favoriteTools.forEach(function(tool) {
+	        	  			favoriteMenu.prepend(tool.html);
+	        	  		});
+            	  	}
+            	});
+
+       			editor.selectAll();
+       			editor.focus();
+       			// $('#editor__buffer-cover').fadeOut('fast');
+
+            	editor.on('change', function(e) {
+            		updateEditor();
+            		$('#editor__undo-cover').fadeOut("fast");
+            	});
+
+                highlight();
+                adjustBookAd();
+                // showHideMobileShareButtons();
+
+
+                $('.ui.radio.checkbox').checkbox();
+
+                // Inicializa as tabs da página.
+                $('.menu .item').tab();
+                $('.share-dropdown, #open-favorites').dropdown({
+                	action: 'hide'
+                });
+
+                $('.ui.selection.dropdown').dropdown();
+
+                // Tool-tip, inline true para colocar tooltips nos elementos fixados.
+                $(".html-popup, .tooltip").popup({
+                    inline: true,
+                    delay: {
+						show: 600,
+						hide: 70
+                    }
+                });
+
+                $(".tooltip__not-touch").popup({
+                    delay: {
+						show: 600,
+						hide: 70
+                    },
+                    addTouchEvents: false
+                });
+
+                $(".popup-size").popup({
+                    inline: true,
+                    position: 'top right',
+                    hoverable: true,
+                    delay: {
+						show: 600,
+						hide: 70
+                    },
+                    offset: -5
+                });
+
+                // Ratings só estão aparecendo nas propagandas dos livros por enquanto.
+                $('.ui.rating').rating();
+                // $('').dropdown();
+
+                bindExerciseInputs();
+                loadLazyImages();
+                loadYTVideo();
+              // quizInit();
+            });
+
+			// Carrega dados no input da página vindo do indexedDB
+			// p_input é uma instância do JQuery.
+			function loadInputContentFromDB(p_input, p_documentId, p_db) {
+				// var bufferCover = p_editor.getSession().getAnnotations().$editorBufferCover;
+            	p_db.collection('codes').doc({ id: p_documentId }).get().then(document => {
+            		// console.log(document);
+            		if (typeof document !== 'undefined' && document.content.trim()) {
+						p_input.val(document.content);
+            		}
+        			// bufferCover.fadeOut('fast');
+            	});
+			}
+
+
+
+			function loadEditorContentFromDB(p_documentId, db) {
+            	// Carrega o valor para colocar no DB.
+            	db.collection('codes')
+            	  .doc({ id: p_documentId })
+            	  .get()
+            	  .then(document => {
+					// console.log(document);
+					editor.selectAll();
+					if (typeof document !== 'undefined' && document.content.trim()) {
+						editor.insert(document.content);
+					}
+					updateEditor();
+					editor.selectAll();
+					editor.focus();
+					bufferCover.fadeOut('fast');
+            	}).then();
+			}
+
+            // Botão de mostrar mais do poster contido na parte inferior da página.
+            $('.show-more').click(function() {
+                posterContainer = $(this).closest('.poster-container');
+                h = posterContainer.find('.poster-img').height();
+                var showLessBt = posterContainer.find('.show-less');
+
+                posterContainer.height(h + 92);
+
+                // Mostra o botão "mostrar menos" e esconder o botão mostrar mais
+                $(this).hide();
+                showLessBt.show();
+            });
+
+            // Botão "mostrar menos" do container do poster.
+            $('.show-less').click(function() {
+                posterContainer = $(this).closest('.poster-container');
+
+                $("html, body").animate(
+                    // Rola a página até o topo do título h2 do .poster-container
+                    { scrollTop: posterContainer.prev('h2').offset().top - 100 },
+                    "slow",
+                    function() {
+                        posterContainer.height(200);
+                    }
+                );
+
+                // Esconde o botão "mostrar menos"
+                $(this).hide();
+                // Mostra o botão "mostrar mais"
+                posterContainer.find('.show-more').show();
+            });
+
+
+                  // Carrega de forma dinâmica o vídeo do youtube da página.
+                  function loadYTVideo() {
+                    // id = $("div#player").attr("data-videoId");
+                    // if (!id.trim()) { // Tem vídeo na página?
+                    //   return;
+                    // }
+
+                    // $("div#player").remove();
+
+                    // $('#' + id).attr('src', 'https://www.youtube.com/embed/' + id)
+                    $('iframe.lazy-yt.unloaded').lazy({
+                        afterLoad: function(element) {
+                            // Evita que eu coloque elementos que já foram carregados novamente na instância.
+                            element.removeClass('unloaded');
+                        }
+                    });
+                  }
+
+                  function loadLazyImages() {
+                    $('picture.lazy-img.unloaded, img.lazy-img.unloaded').Lazy({
+                        effect: 'fadeIn',
+                        effectTime: 1000,
+                        // called after an element was successfully handled
+                        afterLoad: function(element) {
+                        // Remove a animação do loader da imagem
+                            // element.height(element.closest('.img-lazy-container').find('.image-placeholder').height());
+
+                            element.removeClass('unloaded');
+                        }
+                    });
+                  }
+
+            //       function quizInit() {
+            //         ////////////////////////////////////////////////////////////////////////////////////
+            //         /// NEW QUIZ
+            //         ////////////////////////////////////////////////////////////////////////////////////
+            //         // Evita que vários eventos de cliques sejam atribuidos para o mesmo elemento
+            //         $('.quiz-answer').unbind('click');
+            //         // Resposta do quiz clicada.
+
+            //         $('.quiz-answer').click(function(e) {
+            //           e.preventDefault();
+            //           var answer = $(this);
+
+            //           var quizQuestionContainer = answer.closest('.quiz-question-container');
+            //           // A questão já foi respondida.
+            //           if (quizQuestionContainer.hasClass('answered')) {
+            //             return false;
+            //           }
+
+            //           var quizContainer = answer.closest('.quiz-container');
+            //           // Pegar o total de pontos que a questão vale.
+            //           var questionTotalPoints = answer.attr('data-points');
+
+            //           var quizResultScore = quizContainer.find('.quiz-result > p > .quiz-correct-answers');
+            //           // Pegar o total de pontos desse quiz
+            //           // Somar o total de pontos com o total de pontos da questão
+            //           // Atualizar o score.
+            //           quizResultScore.text(parseInt(quizResultScore.text()) + parseInt(questionTotalPoints));
+
+
+            //           // Colocar a classe de correto ou incorreto na questão.
+            //           answer.addClass(answer.attr('data-class'));
+
+            //           var explain = answer.attr('data-text');
+            //           // Pegar o data-text explicando a resposta
+            //           // Setar o p de resposta com o data-text captura anteriormente.
+            //           quizContainer.find('.quiz-next > .quiz-explain-answer').text(explain);
+            //           // Mostra o container do next.
+            //           quizContainer.find('.quiz-next').show();
+            //           // Desabilita as respostas para que o usuário não possa ficar clicando.
+            //           quizQuestionContainer.addClass('answered');
+            //         });
+
+            //         // Quando o botão de próximo do quiz é clicado.
+            //         $('.quiz-next-question-button').unbind('click');
+            //         $('.quiz-next-question-button').click(function() {
+            //           var nextBt = $(this);
+            //           // Pegar o container com a classe quiz-container mais próximo --> acima.
+            //           var quizContainer = nextBt.closest('.quiz-container');
+            //           console.log(quizContainer);
+            //           quizContainer.find('.quiz-next').hide();
+
+            //           // Achar a primeira div com a classe "quiz-active-question".
+            //           var quizActiveQuestion = quizContainer.find('.quiz-active-question');
+            //           var quizNextQuestion = quizActiveQuestion.next('.quiz-question-container');
+            //           var quizH4 = quizContainer.find('h4.quiz-question-counter');
+            // var quizQuestionNumber = quizH4.find('span.quiz-question-number');
+
+            //           // Existe uma próxima questão?
+            // quizActiveQuestion.removeClass('quiz-active-question');
+            //           if (quizNextQuestion.length) {
+            //             var qn = parseInt(quizQuestionNumber.text());
+            //             quizQuestionNumber.text(qn + 1);
+
+            //   quizNextQuestion.addClass('quiz-active-question');
+            //           } else {
+            //             quizH4.hide();
+            //             quizContainer.find('.quiz-result').show();
+            //           }
+            //           quizActiveQuestion.find('.quiz-answer').removeClass('correct').removeClass('incorrect');
+            //         });
+
+            //         $('.quiz-restart-button').unbind('click');
+            //         $('.quiz-restart-button').click(function() {
+            //           restartBt = $(this);
+            //           // Pegar o container com a classe quiz-container mais próximo --> acima.
+            //           var quizContainer = restartBt.closest('.quiz-container');
+            //           quizContainer.find('.quiz-question-container').removeClass('answered').removeClass('quiz-active-question').first().addClass('quiz-active-question');
+            //           quizContainer.find('.quiz-result').hide();
+            //           quizContainer.find('.quiz-result > p > .quiz-correct-answers').text('0');
+            //           var quizH4Counter = quizContainer.find('h4.quiz-question-counter');
+
+            //           quizH4Counter.find('span.quiz-question-number').text('1')
+            //           quizH4Counter.show();
+            //         });
+            //     }
+
+
+                ///////
+                // Mutation observer - Pode comprometer a performance, veremos, verifica alteração nos elementos da página.
+                // inseridos de forma dinâmica, isso evita que eu fique chamando funções quando carrego um conteúdo de outra
+                // página no scroll infinito.
+                /////
+
+                (function($){"use strict";var combinators=[" ",">","+","~"];var fraternisers=["+","~"];var complexTypes=["ATTR","PSEUDO","ID","CLASS"];function grok(msobserver){if(!$.find.tokenize){msobserver.isCombinatorial=true;msobserver.isFraternal=true;msobserver.isComplex=true;return}msobserver.isCombinatorial=false;msobserver.isFraternal=false;msobserver.isComplex=false;var token=$.find.tokenize(msobserver.selector);for(var i=0;i<token.length;i++){for(var j=0;j<token[i].length;j++){if(combinators.indexOf(token[i][j].type)!=-1)msobserver.isCombinatorial=true;if(fraternisers.indexOf(token[i][j].type)!=-1)msobserver.isFraternal=true;if(complexTypes.indexOf(token[i][j].type)!=-1)msobserver.isComplex=true}}}var MutationSelectorObserver=function(selector,callback,options){this.selector=selector.trim();this.callback=callback;this.options=options;grok(this)};var msobservers=[];msobservers.initialize=function(selector,callback,options){var seen=[];var callbackOnce=function(){if(seen.indexOf(this)==-1){seen.push(this);$(this).each(callback)}};$(options.target).find(selector).each(callbackOnce);var msobserver=new MutationSelectorObserver(selector,callbackOnce,options);this.push(msobserver);var observer=new MutationObserver(function(mutations){var matches=[];for(var m=0;m<mutations.length;m++){if(mutations[m].type=="attributes"){if(mutations[m].target.matches(msobserver.selector))matches.push(mutations[m].target);if(msobserver.isFraternal)matches.push.apply(matches,mutations[m].target.parentElement.querySelectorAll(msobserver.selector));else matches.push.apply(matches,mutations[m].target.querySelectorAll(msobserver.selector))}if(mutations[m].type=="childList"){for(var n=0;n<mutations[m].addedNodes.length;n++){if(!(mutations[m].addedNodes[n]instanceof Element))continue;if(mutations[m].addedNodes[n].matches(msobserver.selector))matches.push(mutations[m].addedNodes[n]);if(msobserver.isFraternal)matches.push.apply(matches,mutations[m].addedNodes[n].parentElement.querySelectorAll(msobserver.selector));else matches.push.apply(matches,mutations[m].addedNodes[n].querySelectorAll(msobserver.selector))}}}for(var i=0;i<matches.length;i++)$(matches[i]).each(msobserver.callback)});var defaultObeserverOpts={childList:true,subtree:true,attributes:msobserver.isComplex};observer.observe(options.target,options.observer||defaultObeserverOpts);return observer};$.fn.initialize=function(callback,options){return msobservers.initialize(this.selector,callback,$.extend({},$.initialize.defaults,options))};$.initialize=function(selector,callback,options){return msobservers.initialize(selector,callback,$.extend({},$.initialize.defaults,options))};$.initialize.defaults={target:document.documentElement,observer:null}})(jQuery);
+
+
+                // // Vídeos do youtube na página.
+                // var id;
+                // $.initialize('div.player', function() {
+                //     id = $(this).attr('data-videoId');
+                //     // Configura o atributo src do iframe correspondente a essa div para o ID url com o id do vídeo.
+                //     $('#' + id).attr('src', 'https://www.youtube.com/embed/' + id);
+                // });
+
+                var quizContainer;
+                var quizQuestionContainer;
+                var quizH4Counter;
+                var quizActiveQuestion;
+                var quizNextQuestion;
+                var quizH4;
+                var quizQuestionNumber;
+                var qn;
+                var answer;
+                var questionTotalPoints;
+                var quizResultScore;
+                var explain;
+
+                $.initialize('a.quiz-restart-button', function() {
+                    $(this).click(function() {
+                        // Pegar o container com a classe quiz-container mais próximo --> acima.
+                        quizContainer = $(this).closest('.quiz-container');
+                        quizContainer.find('.quiz-question-container')
+                                     .removeClass('answered')
+                                     .removeClass('quiz-active-question')
+                                     .first()
+                                     .addClass('quiz-active-question');
+                        quizContainer.find('.quiz-result').hide();
+                        // Pontuação
+                        quizContainer.find('.quiz-result > p > .quiz-correct-answers').text('0');
+
+                        quizH4Counter = quizContainer.find('h4.quiz-question-counter');
+
+                        // Contador de perguntas.
+                        quizH4Counter.find('span.quiz-question-number').text('1')
+                        quizH4Counter.show();
+                    });
+                });
+
+                $.initialize('a.quiz-next-question-button', function() {
+                    $(this).click(function(e) {
+                        // Pegar o container com a classe quiz-container mais próximo --> acima.
+                        quizContainer = $(this).closest('.quiz-container');
+                        quizContainer.find('.quiz-next').hide();
+
+                        // Achar a primeira div com a classe "quiz-active-question".
+                        quizActiveQuestion = quizContainer.find('.quiz-active-question');
+                        quizNextQuestion = quizActiveQuestion.next('.quiz-question-container');
+                        quizH4 = quizContainer.find('h4.quiz-question-counter');
+                        quizQuestionNumber = quizH4.find('span.quiz-question-number');
+
+                        // Existe uma próxima questão?
+                        quizActiveQuestion.removeClass('quiz-active-question');
+                        if (quizNextQuestion.length) {
+                            qn = parseInt(quizQuestionNumber.text());
+                            quizQuestionNumber.text(qn + 1);
+
+                            quizNextQuestion.addClass('quiz-active-question');
+                        } else {
+                            quizH4.hide();
+                            quizContainer.find('.quiz-result').show();
+                        }
+                        quizActiveQuestion.find('.quiz-answer').removeClass('correct').removeClass('incorrect');
+                    });
+                });
+
+                $.initialize('a.quiz-answer', function() {
+                    $(this).click(function(e) {
+                        e.preventDefault();
+                        answer = $(this);
+
+                        quizQuestionContainer = answer.closest('.quiz-question-container');
+                        // A questão já foi respondida.
+                        if (quizQuestionContainer.hasClass('answered')) {
+                          return false;
+                        }
+
+                        quizContainer = answer.closest('.quiz-container');
+                        // Pegar o total de pontos que a questão vale.
+                        questionTotalPoints = answer.attr('data-points');
+
+                        quizResultScore = quizContainer.find('.quiz-result > p > .quiz-correct-answers');
+                        // Pegar o total de pontos desse quiz
+                        // Somar o total de pontos com o total de pontos da questão
+                        // Atualizar o score.
+                        quizResultScore.text(parseInt(quizResultScore.text()) + parseInt(questionTotalPoints));
+
+
+                        // Colocar a classe de correto ou incorreto na questão.
+                        answer.addClass(answer.attr('data-class'));
+
+                        explain = answer.attr('data-text');
+                        // Pegar o data-text explicando a resposta
+                        // Setar o p de resposta com o data-text captura anteriormente.
+                        quizContainer.find('.quiz-next > .quiz-explain-answer').text(explain);
+                        // Mostra o container do next.
+                        quizContainer.find('.quiz-next').show();
+                        // Desabilita as respostas para que o usuário não possa ficar clicando.
+                        quizQuestionContainer.addClass('answered');
+                    });
+                });
+
+
+                var scroll;
+                var height;
+                var quarter;
+                var pos;
+                function highlight() {
+                    scroll = $(window).scrollTop();
+                    height = $(window).height();
+                    quarter = (height / 2) / 2;
+
+                    $(".highlight").each(function(){
+                        pos = $(this).offset().top;
+                        if (scroll + height >= pos + quarter) {
+                            // Coloca o bg para destacar o texto.
+                            $(this).addClass("highlighted");
+                        }
+                    });
+                }
+
+                function revealAd() {
+                    scroll = $(window).scrollTop();
+                    height = $(window).height();
+                    // Um quarto do tamanho da tela.
+                    var half = height / 2;
+                    quarter = (height / 2) / 2;
+
+                    $('.ad-reveal-container').each(function(){
+                        pos = $(this).offset().top;
+                        h = $(this).find('.ad-reveal').height();
+                        if (scroll+height >= pos + half) {
+                            $(this).height(h);
+                        }
+                    });
+                }
+
+                // anchors.add("h2, p");
+
+                ////////////////////////////////////////////////////////////////
+                //// COPY AND DOWNLOAD CODE
+                ////////////////////////////////////////////////////////////////
+                function downloadCode(filename, content, extension="txt") {
+                  // Essa linha está duplicando as quebras de linha em arquivos XML.
+                  var textToWrite = '\ufeff' + content.replace(/\n/g, "\r\n");
+                  var textFileAsBlob = new Blob([textToWrite], {type:'text/csv'});
+                  if (!filename.trim()) {
+                    // Local da página (somente a última parte) + data + -script.pl
+                    // filename = location.pathname.match(/([^\/]+)(?=\.\w+$)/)[0] + "-" + Date.now();
+                    filename = 'content' + "-" + Date.now();
+                  }
+                  var downloadLink = document.createElement("a");
+                  downloadLink.download = filename + '.' + extension;
+                  downloadLink.innerHTML = "Download File";
+
+                  // http://stackoverflow.com/a/9851769
+
+                  if (isIE || isEdge) {
+                    navigator.msSaveBlob(textFileAsBlob, fileNameToSaveAs);
+                  }
+                  if (isChrome || isBlink) {
+                    downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+                    downloadLink.click();
+                  }
+                  if (isFirefox) {
+                    downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+                    downloadLink.style.display = "none";
+                    document.body.appendChild(downloadLink);
+                    downloadLink.click();
+                  }
+                }
+
+                var filename,
+                    fileContent,
+                    fileExtension,
+                    codeEl;
+
+                $('.download-code').click(function() {
+                    codeEl        = $(this).closest('pre').find('code');
+                    filename      = codeEl.attr('data-filename') || "";
+                    fileExtension = codeEl.attr('data-fileExtension') || "txt";
+                    fileContent   = codeEl.text();
+                    downloadCode(filename, fileContent, fileExtension);
+                    message('Successo', 'Baixando o código...', 'success');
+                });
+
+
+                /* events fired on the drop targets */
+                document.addEventListener("dragover", function( event ) {
+                  // prevent default to allow drop
+                  event.preventDefault();
+                });
+
+                // document.addEventListener("drop", function( event ) {
+                //   // prevent default action (open as link for some elements)
+                //   event.preventDefault();
+                //   console.log('dropped');
+                // });
+
+                function dropfile(file) {
+                        var reader = new FileReader();
+                        reader.onload = function(e) {
+                          	editor.selectAll();
+          					editor.insert(e.target.result);
+                        };
+                        reader.readAsText(file, "UTF-8");
+                      }
+
+                      // $('#editor').bind('drop', function(e) {
+
+                      // });
+                $('#editor').bind('dragover', function(e){
+                		e.preventDefault();
+                		$(this).closest('.ui.embed').find('#drop-file').show();
+                        // $(this).addClass('drag-over');
+                    });
+                    $('#editor').bind('dragleave', function(e){
+                    	e.preventDefault();
+                    	$(this).closest('.ui.embed').find('#drop-file').hide();
+                        // $(this).removeClass('drag-over');
+                    }).bind('drop', function() {
+                    	$(this).closest('.ui.embed').find('#drop-file').hide();
+                    });
+
+                var editorTra = document.getElementById('editor');
+                editorTra.ondrop =  function(e) {
+                	// alert('lalala');
+                	e.preventDefault();
+            	    var file = e.dataTransfer.files[0];
+            	    dropfile(file);
+                }
+
+                // Ace editor
+                var editorValue;
+                var converted;
+                var newBytes;
+                var originalBytes;
+                var currentBt;
+                // Não estou usando no momento.
+                $('#xml-minify').click(function() {
+                	editorValue = editor.getSession().getValue();
+                	if (editorValue.trim() === "") {
+                		message('Erro', 'O Editor está Vazio!', 'error');
+                	  	editor.focus();
+                	  	return false;
+                	}
+
+                	currentBt = $(this);
+
+                	// Tamanho do código antes de minificar
+                	originalBytes = editor.getSession().getValue().length;
+
+                	$("#wait-text").text("Minifying XML");
+                	$("#wait").fadeIn("slow", function() {
+                		converted = minifyXML(editorValue).trim('\n');
+                		if (!converted) {
+                			$("#wait").fadeOut("slow");
+                			return false;
+                		}
+
+                		insertDataOnDB({
+                			id: getPageName() + '__' + editor.getSession().getAnnotations().$editorId,
+                			content: converted
+                		},
+                		'codes');
+
+                		// Tamanho do código depois da minificação
+                		// newBytes = converted.length;
+						updateCodeSizePopup(currentBt, originalBytes, converted.length)
+                		// alert("dentro do botão");
+	                	editor.selectAll();
+						editor.insert(converted);
+
+                		$("#wait").fadeOut("slow", function() {
+                			message('Successo', 'XML Minified!', 'success');
+                		});
+                	});
+
+
+                	// var newBytes = editor.getSession().getValue().length;
+                	// alert("fora do botão");
+
+                	// alert(editor.getSession().getValue());
+            	});
+
+                function setDBContent(content, id, type) {
+                	fullId = getPageName() + '__' + id;
+                	// alert(fullId);
+        			db.collection('codes')
+        			  .doc({ id: fullId })
+        			  .delete()
+        			  .catch(error => {
+					       //
+					  });
+
+            		return db.collection('codes').add({
+						id: fullId,
+						content: content,
+						type: type
+            		}).then( () => { return fullId; });
+                }
+
+                // id -> o identificador do registro
+                // content -> o conteúdo a ser inserido em formato obj.
+                // collection (String) -> identificado da tabela a inserir o registro
+                function insertDataOnDB(content, collection) {
+                	// Primeiro remove o registro se houver.
+        			db.collection(collection)
+        			  .doc({ id: content.id })
+        			  .delete()
+        			  .catch(error => {
+					       //
+					  });
+
+        			// Insere o registro no banco de dados retorna uma promessa.
+            		return db.collection(collection).add(content).then(() => {
+            			return content;
+            		});
+                }
+
+                function removeDataFromDB(id, collection) {
+        			return db.collection(collection)
+						.doc({ id: id })
+						.delete()
+						.then(() => {
+							return id;
+						})
+						.catch(error => {
+						   //
+						});
+                }
+
+                // Atualiza o conteúdo do PopUp
+                // element --> Elemento jQuery
+                // content --> Conteúdo para atualizar o popup (pode ser HTML)
+                function updatePopUp(element, content) {
+
+                }
+
+            	function updateCodeSizePopup(popupElement, sizeBefore, sizeAfter) {
+            		var originalBytesLabel = sizeBefore > 1 ? "Bytes" : "Byte";
+            		var newBytesLabel = newBytes > 1 ? "Bytes" : "Byte";
+            		var bytesLess = sizeBefore - sizeAfter;
+            		var lessBytesLabel = bytesLess > 1 ? "Bytes" : "Byte";
+            		var percentageDimished = Math.round((bytesLess / sizeBefore) * 100);
+            		var tippyHTMLContent = '<div class="header">Results</div><div class="content"><strong>Original: </strong>'
+            		                      + sizeBefore + ' ' + originalBytesLabel
+            		                      + '<br><strong>Minificado: </strong>'
+            		                      + sizeAfter  + ' ' + newBytesLabel
+            		                      + '<br><strong>Diminuiu: </strong>'
+            		                      + bytesLess + ' ' + lessBytesLabel
+            		                      + '<br><strong><span class="ui green text">' + percentageDimished + '%</span></strong> de compressão.</div>'
+
+            		// Pega o popup que mostra o resultado da minificação
+            		// var popUpSize = popupElement.closest('.editor__container').find('.ui.special.popup');
+            		try {
+            			// popUpSize.html(tippyHTMLContent);
+            			// Vou usar somente um popup para colocar o resultado da minificação,
+            			// assim só preciso de um popup com ID.
+            			$('#popup__minify-results').html(tippyHTMLContent);
+            		} catch(err) {
+            			console.log('ocorreu um erro ao tentar altera o conteúdo do popup: ' + err);
+            		}
+            	}
+
+            	function message(title, message, type) {
+            		var icons = {
+            			info: 'info circle',
+            			success: 'check circle',
+            			warning: 'exclamation circle',
+            			error: 'times circle'
+            		};
+
+            		$('body').toast({
+            			title: title,
+            		    message: message,
+            		    showProgress: 'bottom',
+            		    position: 'top center',
+            		    class: type,
+            		    showIcon: icons[type]
+            		});
+            	}
+
+            	function updateEditor() {
+            		var l = editor.getSession().getValue().length;
+            		lb = l > 1 ? "Bytes" : "Byte";
+            		$('#editor__code-size-label').html("<strong>" + l + "</strong>&nbsp;" + lb);
+	            }
+
+	            $('.copy__tool-bar').click(function(e) {
+	            	e.preventDefault();
+	            	editorContent = editor.getSession().getValue();
+
+	            	if (!editorContent.trim()) {
+	            		message('Erro', 'O Editor está Vazio!', 'error');
+	            	  	return false;
+	            	}
+
+	            	$("#wait-text").text("Copiando Conteúdo...");
+	            	$("#wait").fadeIn("slow", function() {
+	            	  clipboard.writeText(editorContent);
+	            	  $("#wait").fadeOut("slow", function() {
+	            	  		message('Sucesso', 'Conteúdo Copiado!', 'success');
+	            	  });
+	            	});
+	            });
+
+	            $('.download__tool-bar').click(function(e) {
+	            	e.preventDefault();
+	            	editorContent = editor.getSession().getValue();
+	            	fileExtension = editor.getSession().getAnnotations().$fileExtension || "txt";
+
+	            	if (!editorContent.trim()) {
+	            		message('Erro', 'O Editor está Vazio!', 'error');
+	            	  	return false;
+	            	}
+
+	            	$("#wait-text").text("Formatando arquivo para baixar...");
+	            	$("#wait").fadeIn("slow", function() {
+	            		downloadCode("", editorContent, fileExtension);
+	            	  $("#wait").fadeOut("slow", function() {
+	            	  		message('Successo', 'Baixando...', 'success');
+	            	  });
+	            	});
+	            });
+
+                $('.undo__tool-bar').click(function(e) {
+                	e.preventDefault();
+                	editor.undo();
+                	editor.focus();
+
+                	if (!editor.getSession().getUndoManager().hasUndo()) {
+						$('#editor__undo-cover').fadeIn("fast");
+                	}
+
+                	// alterar o conteúdo do popup que mostra o tamanho do texto (somente necessário para ferramentas de minificação)
+                	// var popUpSize = $(this).closest('.editor__container').find('.ui.special.popup');
+                	// try {
+                	// 	popUpSize.html(defaultPopupHtml);
+                	// } catch(err) {
+                	// 	// alert(err);
+                	// 	console.log('ocorreu um erro ao tentar altera o conteúdo do popup: ' + err);
+                	// }
+                });
+
+                $('.erase-all__tool-bar').click(function(e) {
+                	e.preventDefault();
+                	editor.selectAll();
+                	editor.removeLines();
+                	editor.focus();
+
+                	// alterar o conteúdo do popup que mostra o tamanho do texto (somente necessário para ferramentas de minificação)
+                	// var popUpSize = $(this).closest('.editor__container').find('.ui.special.popup');
+                	// try {
+                	// 	popUpSize.html(defaultPopupHtml);
+                	// } catch(err) {
+                	// 	// alert(err);
+                	// 	console.log('ocorreu um erro ao tentar altera o conteúdo do popup: ' + err);
+                	// }
+                });
+
+
+                // Configurações do usuário atual (salvo no banco de dados)
+                var xmlToJson_userOptions = {};
+                // Configuração padrão do conversor de XML para JSON.
+                var xmlToJson_defaultOptions = {
+					compact: false, // Whether to produce detailed object or compact object.
+					trim: false, // Whether to trim whitespace characters that may exist before and after the text.
+					nativeType: false, // Whether to attempt converting text of numerals or of boolean values to native type. For example, "123" will be 123 and "true" will be true
+					nativeTypeAttributes: false, // Whether to attempt converting attributes of numerals or of boolean values to native type. See also nativeType above.
+					addParent: false, // Whether to add parent property in each element object that points to parent object.
+					alwaysArray: false, // Whether to always put sub element, even if it is one only, as an item inside an array. <a><b/></a> will be a:[{b:[{}]}] rather than a:{b:{}} (applicable for compact output only). If the passed value is an array, only elements with names in the passed array are always made arrays.
+					alwaysChildren: false, // Whether to always generate elements property even when there are no actual sub elements. <a></a> will be {"elements":[{"type":"element","name":"a","elements":[]}]} rather than {"elements":[{"type":"element","name":"a"}]} (applicable for non-compact output).
+					instructionHasAttributes: false, // Whether to parse contents of Processing Instruction as attributes or not. <?go to="there"?> will be {"_instruction":{"go":{"_attributes":{"to":"there"}}}} rather than {"_instruction":{"go":"to=\"there\""}}.
+					ignoreDeclaration: false, // Whether to ignore parsing declaration property. That is, no declaration property will be generated.
+					ignoreInstruction: false, // Whether to ignore parsing processing instruction property. That is, no instruction property will be generated.
+					ignoreAttributes: false, // Whether to ignore parsing attributes of elements.That is, no attributes property will be generated.
+					ignoreComment: false, // Whether to ignore parsing comments of the elements. That is, no comment will be generated.
+					ignoreCdata: false, // Whether to ignore parsing CData of the elements. That is, no cdata will be generated.
+					ignoreDoctype: false, // Whether to ignore parsing Doctype of the elements. That is, no doctype will be generated.
+					ignoreText: false, // Whether to ignore parsing texts of the elements. That is, no text will be generated.
+					spaces: 2, // Number of spaces to be used for indenting JSON output. Passing characters like ' ' or '\t' are also accepted.
+
+					// Options for Changing Key Names
+					declarationKey: "_declaration", // Name of the property key which will be used for the declaration. For example, if declarationKey: '$declaration' then output of <?xml?> will be {"$declaration":{}} (in compact form)
+					instructionKey: "_instruction", // Name of the property key which will be used for the processing instruction. For example, if instructionKey: '$instruction' then output of <?go there?> will be {"$instruction":{"go":"there"}} (in compact form)
+					attributesKey: "_attributes", // Name of the property key which will be used for the attributes. For example, if attributesKey: '$attributes' then output of <a x="hello"/> will be {"a":{$attributes:{"x":"hello"}}} (in compact form)
+					textKey: "_text", // Name of the property key which will be used for the text. For example, if textKey: '$text' then output of <a>hi</a> will be {"a":{"$text":"Hi"}} (in compact form)
+					cdataKey: "_cdata", // Name of the property key which will be used for the cdata. For example, if cdataKey: '$cdata' then output of <![CDATA[1 is < 2]]> will be {"$cdata":"1 is < 2"} (in compact form)
+					doctypeKey: "_doctype", // Name of the property key which will be used for the doctype. For example, if doctypeKey: '$doctype' then output of <!DOCTYPE foo> will be {"$doctype":" foo} (in compact form)
+					commentKey: "_comment", // Name of the property key which will be used for the comment. For example, if commentKey: '$comment' then output of <!--note--> will be {"$comment":"note"} (in compact form)
+					parentKey: "_parent", // Name of the property key which will be used for the parent. For example, if parentKey: '$parent' then output of <a></b></a> will be {"a":{"b":{$parent:_points_to_a}}} (in compact form)
+					typeKey: "type", // Name of the property key which will be used for the type. For example, if typeKey: '$type' then output of <a></a> will be {"elements":[{"$type":"element","name":"a"}]} (in non-compact form)
+					nameKey: "name", // Name of the property key which will be used for the name. For example, if nameKey: '$name' then output of <a></a> will be {"elements":[{"type":"element","$name":"a"}]} (in non-compact form)
+					elementsKey: "elements" // Name of the property key which will be used for the elements. For example, if elementsKey: '$elements' then output of <a></a> will be {"$elements":[{"type":"element","name":"a"}]} (in non-compact form)
+                };
+
+                function xmlToYaml(text) {
+                	try {
+                		// first convert xml to json
+                		var x2js = new X2JS();
+                		var jsonObj = x2js.xml_str2json(text);
+
+                		// then convert json to yaml
+                		return YAML.stringify(jsonObj);
+                	} catch(err) {
+        				message('Erro', err.message, 'error');
+        				return false;
+        			}
+                }
+
+                function yamlToXml(text) {
+                	try {
+                		// first convert yaml to json
+
+                		try {
+                		    var jsonObj = YAML.parse(text);
+                		}
+                		catch (err) {
+                		    throw new Error("Invalid YAML"); // rethrow for exceptionFn
+                		}
+
+                		// then convert json to xml
+                		return vkbeautify.xml(json2xml(jsonObj));
+                	} catch(err) {
+        				message('Erro', err.message, 'error');
+        				return false;
+        			}
+                }
+
+            	var contentType;
+                $('#editor__xml-to-yaml').click(function() {
+                	editorContent = editor.getSession().getValue();
+                	if (editorContent.trim() === "") {
+                		message('Erro', 'O Editor está Vazio!', 'error');
+                	  	editor.focus();
+                	  	return false;
+                	}
+                	// Grava o conteúdo do editor no banco de dados.
+                	contentType   = 'ace_editor';
+                	setDBContent(editorContent, editor.getSession().getAnnotations().$editorId, contentType);
+
+                	$("#wait-text").text("Convertendo XML em YAML...");
+                	$("#wait").fadeIn("slow", function() {
+                		converted = xmlToYaml(editorContent);
+                		if (!converted) {
+                			$("#wait").fadeOut("slow", function() {
+                				editor.focus();
+                			});
+                			return false;
+                		}
+
+                		$('div[data-session="yaml_editor"]').click();
+	                	editor.selectAll();
+						editor.insert(converted.trim("\n"));
+	                	editor.selectAll();
+
+						contentType = 'ace_editor';
+						setDBContent(converted, editor.getSession().getAnnotations().$editorId, contentType);
+
+                		$("#wait").fadeOut("slow", function() {
+                			message('Successo', 'Conteúdo convertido!', 'success');
+                		});
+                	});
+            	});
+
+                $('#editor__yaml-to-xml').click(function() {
+                	editorContent = editor.getSession().getValue();
+                	setDBContent(editorContent, editor.getSession().getAnnotations().$editorId).then((a) => {console.log(a);});
+                	if (editorContent.trim() === "") {
+                		message('Erro', 'O Editor está Vazio!', 'error');
+                	  	editor.focus();
+                	  	return false;
+                	}
+
+                	$("#wait-text").text("Convertendo YAML em XML...");
+                	$("#wait").fadeIn("slow", function() {
+                		converted = yamlToXml(editorContent);
+                		if (!converted) {
+                			$("#wait").fadeOut("slow", function() {
+                				editor.focus();
+                			});
+                			return false;
+                		}
+
+                		// editor.setSession(window['yaml_editor']);
+                		$('div[data-session="xml_editor"]').click();
+	                	editor.selectAll();
+						editor.insert(converted.trim("\n"));
+	                	editor.selectAll();
+
+	                	setDBContent(converted, editor.getSession().getAnnotations().$editorId).then((a) => {console.log(a);});
+
+                		$("#wait").fadeOut("slow", function() {
+                			message('Successo', 'Conteúdo convertido!', 'success');
+                		});
+                	});
+
+                	// alert(editor.getSession().getValue());
+            	});
+
+
+                // Banco de dados IndexedDB
+	        	let db = new Localbase('tools.dev.br');
+
+	        	// Editor ACE.
+	        	// ace.config.set("basePath", "/assets/js/vendor/ace@1.4.11/workers");
+	        	// ace.config.setModuleUrl('ace/mode/xml_worker', '/assets/js/vendor/ace@1.4.11/workers/worker-xml.js');
+	        	// ace.config.setModuleUrl('ace/mode/json_worker', '/assets/js/vendor/ace@1.4.11/workers/worker-json.js');
+
+	        	// ace.config.set("basePath", "https://cdn.jsdelivr.net/npm/ace-builds@1.4.3/src-noconflict/");
+	        	// ace.config.setModuleUrl('ace/mode/javascript_worker', "https://cdn.jsdelivr.net/npm/ace-builds@1.4.3/src-noconflict/worker-xml.js");
+	        	// ace.config.setModuleUrl('ace/mode/javascript_worker', "https://cdn.jsdelivr.net/npm/ace-builds@1.4.3/src-noconflict/worker-json.js");
+
+	        	var editor = ace.edit("editor");
+	        	editor.renderer.setOptions({
+					fontSize: '14.5px',
+					fontFamily: 'Roboto Mono, monospace, sans-serif',
+					fixedWidthGutter: true,
+	        	});
+
+	        	editor.setOptions({
+	        		dragEnabled: false // Evita arrastar e soltar texto dentro do editor.
+	        	});
+	        	editor.setTheme("ace/theme/chrome");
+	        	// Usando o container eu estou acessando o obj do DOM diretamente.
+	        	editor.container.style.lineHeight = 2;
+	        	editor.renderer.updateFontSize();
+	        	// Coloca a instância do editor diretamente no obj global window.
+	        	window['editor'] = editor;
+
+	        	// Cada seção do Editor (javascript, css, xml, etc).
+	        	// não necessita criar mais de um, apenas alternar entre as seções.
+	        	var sessions = [
+	        		{
+	        			id: 'yaml_editor',
+	        			content: '',
+	        			mode: 'yaml',
+	        			annotations: {
+			        		$actionButton: document.getElementById('editor__yaml-to-xml'),
+			        		$lang: 'YAML',
+			        		$fileExtension: 'yaml',
+			        		$chainMenu: document.getElementById('editor__bcd-chain-menu'),
+			        		$options: {}, // Tenho opções que são da ferramenta mais precisamente relacionada com o ato de conversão, além de opções padrões do editor, como 'mostrar numeração de linha', 'cores', enfim, inclui os parâmetros da ferramenta também...
+			        		$editorId: 'yaml_editor'
+			        	}
+	        		},
+	        		{
+	        			id: 'xml_editor',
+	        			content: '',
+	        			mode: 'xml',
+	        			annotations: {
+			        		$actionButton: document.getElementById('editor__xml-to-yaml'),
+			        		$lang: 'XML',
+			        		$fileExtension: 'xml',
+			        		$chainMenu: document.getElementById('editor__hex-chain-menu'),
+			        		$editorId: 'xml_editor'
+			        	}
+	        		}
+	        	];
+
+	        	const queryString = window.location.search;
+	        	const urlParams = new URLSearchParams(queryString);
+
+	        	function loadData(id) {
+	        		return (urlParams.has(id)) ? loadFromURL(id, urlParams.get(id)) : loadFromDB(id);
+	        	}
+
+	        	function loadFromDB(id) {
+    	        		return db.collection('codes')
+    		            	     .doc({ id: getPageName() + '__' + id })
+    		            	     .get()
+     		            	     .then(document => {
+     		            	     	var c; // content;
+     		            	     	var t; // type;
+     		            	     	// alert(id + ' ' + typeof document);
+									if (typeof document === 'undefined' || !document.content.trim()) {
+	        							c = false;
+	        							t = false;
+ 	    							} else {
+     		            	     		c = document.content;
+     		            	     		t = document.type;
+ 	    							}
+ 	    							return { id: id, content: c, type: t };
+     		        	    	});
+
+	        	}
+
+	        	function loadFromURL(sessionId, documentId) {
+	        		var c; // content;
+	        		return db.collection('codes')
+		            	     .doc({ id: documentId })
+		            	     .get()
+		            	     .then(document => {
+    							if (typeof document === 'undefined' || !document.content.trim()) {
+    								return loadFromDB(sessionId);
+    								// c = false;
+    							} else {
+    								c = document.content;
+    							}
+
+								return { id: sessionId, content: c, type: document.type };
+		        	    	});
+	        	}
+
+	        	// Cria as seções do ACE editor
+	        	sessions.forEach(function(session) {
+	        		window[session.id] = new ace.createEditSession(session.content, 'ace/mode/' + session.mode);
+	        		window[session.id].setUseWrapMode(false);
+	        		editor.setSession(window[session.id]);
+	        		editor.session.setOption('useWorker', false);
+	        		editor.getSession().setAnnotations(session.annotations);
+	        	});
+
+	        	var promises = [];
+	        	sessions.forEach(function(session) {
+	        		$('#editor-lang-label').text('Carregando Conteúdo...');
+	        		// Carrega os dados do editor através da promessa
+	        		promises.push(loadData(session.id));
+	        	});
+
+	        	// Todos as promessas foram resolvidas.
+	        	Promise.all(promises).then((sessions) => {
+	        		sessions.forEach(function(session) {
+    	        		if (session.content) {
+    	        			window['editor'].setSession(window[session.id]);
+    	        			window['editor'].selectAll();
+    	        			window['editor'].insert(session.content);
+    	        		}
+	        		});
+
+	        		window['editor'].setSession(window['xml_editor']);
+	        		window['editor'].selectAll();
+	        		window['editor'].focus();
+	        		updateEditor();
+	        		$('#editor__buffer-cover').fadeOut('slow');
+	        	});
+
+	        	editor.on('changeSession', function(e) {
+	        		$('.editor__action-button').hide();
+	        		$('.editor__sidebar').hide();
+	        		// Transforma o elemento DOM em jQuery
+	        		$(editor.getSession().getAnnotations().$actionButton).show();
+	        		$('#editor__lang-label').text(editor.getSession().getAnnotations().$lang);
+	        		$('.editor__sidebar-chain-menu').removeClass('active-chain');
+	        		// Transforma o elemento DOM em jQuery
+	        		$(editor.getSession().getAnnotations().$chainMenu).addClass('active-chain');
+	        		updateEditor();
+	        	});
+	        	// testando usando sessions
+
+
+	        	// Adicionar aos favoritos.
+				var element;
+	        	$('#editor__add-to-favorites-label').click(function(e) {
+	        		e.preventDefault();
+	        		e.stopPropagation();
+	        		element = $(this);
+	        		var isFavorited = element.attr('data-isFavorited');
+	        		if (isFavorited === 'true') {
+	        			removeToolFromFavorites().then((id) => {
+	        				// Usar o id para remover o item de dentro da lista.
+	        				$('#favorite-tools__menu-items').find('a[href*="/' + id + '/"]').remove();
+	        				if (!$('.favorite-tools__tool').lenght) {
+	        					$('#no-favorites').show();
+	        					$('#favorite-tools__header').hide();
+	        				}
+	        				element.html('<i class="star outline icon"></i> Adicionar aos favoritos').attr('data-isFavorited', 'false');
+	        				message('Feito', 'Você removeu essa ferramenta dos seus favoritos.', 'info');
+	        				// Manda uma mensagem indicando a remoção dos favoritos.
+	        			});
+	        		} else {
+	        			addToolToFavorites().then((r) => {
+	        				$('#favorite-tools__menu-items').prepend(r.html);
+	        				$('#no-favorites').hide();
+	        				$('#favorite-tools__header').show();
+	        				element.html('<i class="star yellow icon"></i> Favoritado').attr('data-isFavorited', 'true');
+	        				message('Maravilha', 'Você adicionou essa ferramenta aos seus favoritos.', 'info');
+	        			});
+	        		}
+	        	});
+
+	        	function addToolToFavorites() {
+	        		var pageName = getPageName().trim('/');
+	        		var title = $('h1').text().trim();
+
+	        		r = {
+	        			id: pageName,
+	        			url: '/' + pageName + '/',
+	        			title: title,
+	        			html: '<a href="/' + pageName + '/" class="item favorite-tools__tool">' + title + '</a>'
+	        		};
+
+	        		return insertDataOnDB(r, 'favoriteTools');
+	        	}
+
+	        	function removeToolFromFavorites() {
+	        		var pageName = getPageName().trim('/');
+	        		return removeDataFromDB(pageName, 'favoriteTools');
+	        	}
+
+	        	$('#close-fixed-ad').click(function() {
+	        		$('#page-fixed-bottom-ad').fadeOut('slow');
+	        	});
+
+	        	$('.close-message').click(function() {
+	        		$(this).closest('.message__container').hide();
+	        	});
+
+
+        </script>
+        <!-- <script src="/assets/js/vendor/sharer.min.js"></script>
+            <script src="/assets/js/app.js"></script> -->
+    </body>
+</html>
